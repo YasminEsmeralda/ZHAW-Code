@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SW01</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("../../header.html");
+        });
+    </script>
+</head>
+
+<body>
+    <h1 class="display-2 myh1">SW01</h1>
+
+    <div id="header"></div>
+
+    <div class="container" id="menu"></div>
+
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                        aria-expanded="true" aria-controls="collapse1">
+                        button
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <button onclick="fMyFunction()">Click me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

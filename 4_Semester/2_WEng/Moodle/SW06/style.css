@@ -1,0 +1,25 @@
+/* SW01 */
+button {
+    background-color:blue;
+    color:white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+a {
+    color: grey;
+}
+
+.myh1 {
+    text-align: center;
+}
+
+.important {
+    color: green;
+}

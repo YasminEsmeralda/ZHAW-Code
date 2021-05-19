@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple Calculator</title>
+    <!-- required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+    <!-- other script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+
+    <!-- own scripts -->
+    <script type="text/javascript" src="script.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+
+
+        <form class="mt-5">
+            <div class="mb-3">
+                <label class="form-label" for="x">X</label>
+                <input class="form-control" type="number" id="x">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="y">Y</label>
+                <input class="form-control" type="number" id="y">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="">Operation</label>
+                <select class="form-select" id="operation">
+                    <option>-</option>
+                    <option>Add</option>
+                    <option>Multiply</option>
+                </select>
+            </div>
+
+            <!-- TODO: onclick -->
+            <div class="mb-3">
+                <button onclick="calculate()" type="button" class="btn btn-primary">Calculate</button>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="">Result: <b id="result">-</b></label>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

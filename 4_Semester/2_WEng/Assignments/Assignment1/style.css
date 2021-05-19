@@ -1,0 +1,8 @@
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}
+
+img {
+    height: 195px;
+    margin-top: 10px;
+}

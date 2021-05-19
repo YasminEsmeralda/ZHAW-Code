@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SW04</title>
+
+    <title>SW03</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("../../header.html");
+        });
+    </script>
+
+    <!-- <link rel="stylesheet" href="src/styles/headings.css"> -->
+</head>
+
+<body>
+    <h1 class="display-2">Home</h1>
+
+    <div id="header"></div>
+
+    <div>
+        <a href="src/pages/about.html">About</a>
+    </div>
+
+    <div>
+        <a href="src/pages/contact.html">Contact</a>
+    </div>
+
+    <p>If the title ("Home") is blue, then the stylesheet is in the correct directory.</p>
+
+    <h2>Your task: Fix the directory structure</h2>
+    <p>
+        This static web application contains a few documents:
+    </p>
+    <ul>
+        <li>about.html</li>
+        <li>contact.html</li>
+        <li>headings.css</li>
+        <li>index.html (this page)</li>
+        <li>sml.jpg</li>
+        <li>style.css</li>
+    </ul>
+    <p>
+        The content of these files is correct, you don't have to change them. But they are not yet in the correct
+        directories (except for index.html). Therefore, the stylesheet cannot be found and the links are not working.
+    </p>
+    <p>
+        <b>Your task is to create the necessary folders and move to files to them.</b>
+    </p>
+    <p>
+        <i>Hint: </i>Examine the references in the links to the other files. For example,
+        <code>&lt;a href="en/main.html"&gt;Contact&lt;/a&gt;</code>
+        would mean that a file "main.html" is expected in the folder "en" relative to the current directory. If you
+        don't know how to read the paths in "href", read the following
+        <a href="https://www.w3schools.com/html/html_filepaths.asp">documentation on W3Schools</a>.
+    </p>
+
+</body>
+
+</html>

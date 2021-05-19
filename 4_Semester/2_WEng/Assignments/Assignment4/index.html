@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <script type="text/javascript" src="guess.js"></script>
+</head>
+
+<body onload="initGame()">
+    <div class="container">
+        <h1>Guess the number</h1>
+
+        <p>Guess the secret number between 1 and <b id="range"></b>:</p>
+
+        <form class="mt-5">
+            <div class="mb-3">
+                <label class="form-label" for=""></label>
+                <input class="form-control" type="number" id="nr">
+                <button onclick="predict()" type="button" class="btn btn-primary" id="guess">Guess</button>
+                <button onclick="initGame()" type="button" class="btn btn-primary" id="reset">Reset</button>
+                <button onclick="changeRange()" type="button" class="btn btn-primary" id="change">Change Range</button>
+                <p id="message"></p>
+                <p> Attempts needed: <b id="attempts"></p>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
