@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="container">
+        <h1 class="display-3">To-Do List</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="todo.html">To-Do List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Add Task</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1 class="display-6">Household</h1>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" name="packersOff" id="packers" value="1" />
+                    <label for="packers" class="strikethrough">clean windows</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" name="packersOff" id="packers" value="1" />
+                    <label for="packers" class="strikethrough">make laundry</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" name="packersOff" id="packers" value="1" />
+                    <label for="packers" class="strikethrough">cook dinner</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" name="packersOff" id="packers" value="1" />
+                    <label for="packers" class="strikethrough">prepare house for in laws</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h1 class="display-6">Work</h1>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" name="packersOff" id="packers" value="1" />
+                    <label for="packers" class="strikethrough">read mails</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" name="packersOff" id="packers" value="1" />
+                    <label for="packers" class="strikethrough">install git</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" name="packersOff" id="packers" value="1" />
+                    <label for="packers" class="strikethrough">install IntelliJ</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" name="packersOff" id="packers" value="1" />
+                    <label for="packers" class="strikethrough">checkout project repository</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

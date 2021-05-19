@@ -1,0 +1,23 @@
+button {
+    background-color:blue;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.firstButton {
+    background-color:purple;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.secondButton {
+    background-color:rosybrown;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+}

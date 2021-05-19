@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="container">
+        <h1 class="display-3">Add Task</h1>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="todo.html">To-Do List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Add Task</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="display-6">new task</h1>
+            <div class="row row-cols-2">
+                <div class="col mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">task name</label>
+                </div>
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="Default input"
+                        aria-label="default input example">
+                </div>
+                <div class="col mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">selecht To-Do List</label>
+                </div>
+                <div class="col">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>select...</option>
+                        <option value="1">Household</option>
+                        <option value="2">Work</option>
+                    </select>
+                </div>
+                <div class="col mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">selecht person</label>
+                </div>
+                <div class="col">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>select...</option>
+                        <option value="1">Yasmin</option>
+                        <option value="2">Thomas</option>
+                        <option value="3">Josh</option>
+                        <option value="4">Esmeralda</option>
+                        <option value="5">Giuliano</option>
+                    </select>
+                </div>
+                <div class="col mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">duration</label>
+                </div>
+                <div class="col">
+                    <div class="dropdown">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>select...</option>
+                            <option value="1">15 Minutes</option>
+                            <option value="2">30 Minutes</option>
+                            <option value="3">45 Minutes</option>
+                            <option value="4">60 Minutes</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <a href="index.html"><button class="btn btn-outline-primary" type="button">cancel</button></a>
+                </div>
+                <div class="col">
+                    <button class="btn btn-outline-primary" onclick="fSubmit()" type="button">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Exercise - Chartjs</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-3">
+                <div class="card">
+                    <div class="card-header">
+                        Bar Chart
+                    </div>
+                    <div class="card-body">
+                        <canvas id="chart1" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3">
+                <div class="card">
+                    <div class="card-header">
+                        Pie Chart
+                    </div>
+                    <div class="card-body">
+                        <canvas id="chart2" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4  mt-3">
+                <div class="card">
+                    <div class="card-header">
+                        Add data
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="datalabel">Label</label>
+                                <input type="text" class="form-control" id="datalabel">
+                            </div>
+                            <div class="mb-3">
+                                <label for="datavalue">Number</label>
+                                <input type="number" class="form-control" id="datavalue">
+                            </div>
+                            <div class="mb-3">
+                                <label for="datacolor">Color</label>
+                                <input type="color" class="form-control form-control-color" id="datacolor">
+                            </div>
+                            <button type="button" onclick="addData()" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="chartjs.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

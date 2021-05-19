@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Task 2 */
+h1	{
+	color: red;
+}
+
+.important {
+    text-transform: uppercase;
+}
+
+/* Task 3 */
+body {
+    background-color: rgb(105, 105, 105);
+}
+
+#main	{
+    width: 50%;
+	background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: red;
+	border-width: 3px;
+	padding: 9px;
+    margin-top: 50px;
+}
+
+p, li {
+    color: white; 
+}
+
+/* Task 4 */
+#main	{
+	border-radius: 10px;
+	margin: auto;
+}
+
+/* Task 5 */
+ul {
+    list-style-image: url('img/bullet.png');
+}
+
+li {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Task 6 */
+img {
+    border-radius: 50px;
+    margin: 5px;
+}
+ 
+/* Task 7 */
+.image-list {
+  display: flex;
+  justify-content: space-between;
+}

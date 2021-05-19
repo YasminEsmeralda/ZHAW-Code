@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SW01</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("../../header.html");
+        });
+    </script>
+
+    <!-- title -->
+    <title>SW02</title>
+</head>
+
+<body>
+    <h1 id="top" class="display-2 myh1">SW02</h1>
+    
+    <div id="header"></div>
+
+    <div class="container" id="menu"></div>
+
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                        aria-expanded="true" aria-controls="collapse1">
+                        Heading
+                    </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h1>1. - Heading 1</h1>
+                        <h2>1.1. - Heading 2</h2>
+                        <h3>1.1.1. - Heading 3</h3>
+                        <h4>1.1.1.1. - Heading 4</h4>
+                        <h5>1.1.1.1.1. - Heading 5</h5>
+                        <h6>1.1.1.1.1.1. - Heading 6</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        unordered list items
+                    </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p></p>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                        ordered list items
+                    </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ol>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading4e">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                        nested list
+                    </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ol>
+                            <li>one
+                                <ol>
+                                    <li>two</li>
+                                    <li>three</li>
+                                </ol>
+                            </li>
+                            <li>four</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                        images
+                    </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <img src="img/landschaft.jpg" alt="landschaft">
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                        tables
+                    </button>
+                </h2>
+                <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <table>
+                            <tr>
+                                <td>Yasmin</td>
+                                <td>Lützelschwab</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <td>Thomas</td>
+                                <td>Nagy</td>
+                                <td>24</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                        hyperlinks
+                    </button>
+                </h2>
+                <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <!-- href = auch link yu anderen seiten -->
+                        <!-- link zu anderer Seite und jump kann auch kombiniert werden -->
+                        <a href="https://www.google.com/">linkname</a>
+                        </br>
+                        <a href="#top">jump to top of page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                        elements to mark up a part of text
+                    </button>
+                </h2>
+                <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>
+                            <b>Luke:</b> He told me enough! He told me <i>you</i> killed him!
+                        </p>
+                        <p>
+                            <strong>Darth Vader:</strong> No. <em>I</em> am your father.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                        block and inline elements
+                    </button>
+                </h2>
+                <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h1>Title</h1>
+                        <h2>Subtitle</h2>
+                        <p>
+                            An <b>inline element</b>
+                            in a paragraph.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading10">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                        div/span
+                    </button>
+                </h2>
+                <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h1>My <span class="important">Important</span> Heading</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading11">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                        form
+                    </button>
+                </h2>
+                <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <form>
+                            <label for="name">Name: </label>
+                            <input type="text" id="name">
+                            <label for="age">Age: </label>
+                            <input type="number" id="age">
+                            <select name="language">
+                                <option value="german">Deutsch</option>
+                                <option value="english">English</option>
+                            </select>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
