@@ -1,0 +1,52 @@
+<persons>
+  <person>
+    <name>Osborne MacNamara</name>
+    <email>omacnamara0@xinhuanet.com</email>
+    <id>1</id>
+  </person>
+  <person>
+    <name>Helenelizabeth MacLice</name>
+    <email>hmaclice1@freewebs.com</email>
+    <id>2</id>
+  </person>
+  <person>
+    <name>Marnia Bromidge</name>
+    <email>mbromidge2@homestead.com</email>
+    <id>3</id>
+  </person>
+  <person>
+    <name>Michal Deery</name>
+    <email>mdeery3@house.gov</email>
+    <id>4</id>
+  </person>
+  <person>
+    <name>Margot Rominov</name>
+    <email>mrominov4@boston.com</email>
+    <id>5</id>
+  </person>
+  <person>
+    <name>Zulema Tennewell</name>
+    <email>ztennewell5@redcross.org</email>
+    <id>6</id>
+  </person>
+  <person>
+    <name>Dorisa Horlick</name>
+    <email>dhorlick6@marriott.com</email>
+    <id>7</id>
+  </person>
+  <person>
+    <name>Hobart Praundl</name>
+    <email>hpraundl7@unc.edu</email>
+    <id>8</id>
+  </person>
+  <person>
+    <name>Edan Slemmonds</name>
+    <email>eslemmonds8@gov.uk</email>
+    <id>9</id>
+  </person>
+  <person>
+    <name>Caryl McGaraghan</name>
+    <email>cmcgaraghan9@tiny.cc</email>
+    <id>10</id>
+  </person>
+</persons>

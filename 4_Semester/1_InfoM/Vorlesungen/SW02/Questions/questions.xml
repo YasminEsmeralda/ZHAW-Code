@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <response_code>0</response_code>
+  <results>
+    <element>
+      <category>Entertainment: Film</category>
+      <correct_answer>BB-8</correct_answer>
+      <difficulty>easy</difficulty>
+      <incorrect_answers>
+        <element>BB-3</element>
+        <element>AA-A</element>
+        <element>R2-D2</element>
+      </incorrect_answers>
+      <question>What is the orange and white bot&#039;s name in &quot;Star Wars: The Force Awakens&quot;?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>General Knowledge</category>
+      <correct_answer>Beijing</correct_answer>
+      <difficulty>medium</difficulty>
+      <incorrect_answers>
+        <element>Kuala Lumpur</element>
+        <element>Singapore</element>
+        <element>Tokyo</element>
+      </incorrect_answers>
+      <question>What was the destination of the missing flight MH370?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Entertainment: Video Games</category>
+      <correct_answer>Thievius Raccoonus</correct_answer>
+      <difficulty>easy</difficulty>
+      <incorrect_answers>
+        <element>Raccoon Training 101</element>
+        <element>The Art of Sneak</element>
+        <element>Raccoonus Teachus</element>
+      </incorrect_answers>
+      <question>In the first game of the Sly Cooper franchise, what family heirloom did Sly Cooper want to steal back?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Celebrities</category>
+      <correct_answer>Zoroastrianism</correct_answer>
+      <difficulty>hard</difficulty>
+      <incorrect_answers>
+        <element>Paganism</element>
+        <element>Ashurism</element>
+        <element>Judaism</element>
+      </incorrect_answers>
+      <question>What was the religion of famous singer &quot;Freddie Mercury&quot;?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Mythology</category>
+      <correct_answer>Janus</correct_answer>
+      <difficulty>medium</difficulty>
+      <incorrect_answers>
+        <element>Vulcan</element>
+        <element>Juno</element>
+        <element>Mars</element>
+      </incorrect_answers>
+      <question>Which of these Roman gods doesn&#039;t have a counterpart in Greek mythology?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Entertainment: Music</category>
+      <correct_answer>Take off all your clothes</correct_answer>
+      <difficulty>easy</difficulty>
+      <incorrect_answers>
+        <element>Take a cool shower</element>
+        <element>Drink some water</element>
+        <element>Go skinny dipping</element>
+      </incorrect_answers>
+      <question>According to the American rapper Nelly, what should you do when its hot in here?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Entertainment: Video Games</category>
+      <correct_answer>Toad</correct_answer>
+      <difficulty>easy</difficulty>
+      <incorrect_answers>
+        <element>Luigi</element>
+        <element>Yoshi</element>
+        <element>Bowser</element>
+      </incorrect_answers>
+      <question>In Super Mario Bros., who informs Mario that the princess is in another castle?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>General Knowledge</category>
+      <correct_answer>IKEA</correct_answer>
+      <difficulty>hard</difficulty>
+      <incorrect_answers>
+        <element>H &amp; M</element>
+        <element>Lindex</element>
+        <element>Clas Ohlson</element>
+      </incorrect_answers>
+      <question>Which one of these Swedish companies was founded in 1943?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Science: Gadgets</category>
+      <correct_answer>Microsoft</correct_answer>
+      <difficulty>medium</difficulty>
+      <incorrect_answers>
+        <element>HTC</element>
+        <element>Oculus</element>
+        <element>Tobii</element>
+      </incorrect_answers>
+      <question>Which company developed the Hololens?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Geography</category>
+      <correct_answer>Yellowstone</correct_answer>
+      <difficulty>medium</difficulty>
+      <incorrect_answers>
+        <element>Sequoia </element>
+        <element>Yosemite</element>
+        <element>Rocky Mountain</element>
+      </incorrect_answers>
+      <question>What&#039;s the first National Park designated in the United States?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Entertainment: Video Games</category>
+      <correct_answer>Monster Hunter Tri</correct_answer>
+      <difficulty>hard</difficulty>
+      <incorrect_answers>
+        <element>Monster Hunter Freedom Unite</element>
+        <element>Monster Hunter Frontier</element>
+        <element>Monster Hunter Generations</element>
+      </incorrect_answers>
+      <question>Which game in the &quot;Monster Hunter&quot; series introduced the monster &quot;Gobul&quot;?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Entertainment: Film</category>
+      <correct_answer>Corey Feldman</correct_answer>
+      <difficulty>medium</difficulty>
+      <incorrect_answers>
+        <element>Macaulay Culkin</element>
+        <element>Mel Gibson</element>
+        <element>Mark Hamill</element>
+      </incorrect_answers>
+      <question>Which actor plays the character &quot;Tommy Jarvis&quot; in &quot;Friday the 13th: The Final Chapter&quot; (1984)?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Entertainment: Comics</category>
+      <correct_answer>Indigo (Compassion)</correct_answer>
+      <difficulty>hard</difficulty>
+      <incorrect_answers>
+        <element>Green (Willpower)</element>
+        <element>White (Life)</element>
+        <element>Yellow (Fear)</element>
+      </incorrect_answers>
+      <question>Which of the following rings from the DC Comics&#039; &quot;Lantern Corps&quot; are classified as Parasitic?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Entertainment: Video Games</category>
+      <correct_answer>Gnasty Gnorc</correct_answer>
+      <difficulty>easy</difficulty>
+      <incorrect_answers>
+        <element>Ripto</element>
+        <element>Sorceress</element>
+        <element>Cynder</element>
+      </incorrect_answers>
+      <question>In the original Spyro game who is the first villain?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Entertainment: Video Games</category>
+      <correct_answer>Grand Theft Auto III</correct_answer>
+      <difficulty>medium</difficulty>
+      <incorrect_answers>
+        <element>Grand Theft Auto</element>
+        <element>Grand Theft Auto II</element>
+        <element>Grand Theft Auto Vice City</element>
+      </incorrect_answers>
+      <question>Which one of the first four titles of the &quot;Grand Theft Auto&quot; franchise started the series of iconic image grid cover arts?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Entertainment: Music</category>
+      <correct_answer>Tennis Court</correct_answer>
+      <difficulty>medium</difficulty>
+      <incorrect_answers>
+        <element>Team</element>
+        <element>Royals</element>
+        <element>400 Lux</element>
+      </incorrect_answers>
+      <question>What is the opening track on Lorde&#039;s Pure Heroine?</question>
+      <type>multiple</type>
+    </element>
+    <element>
+      <category>Science und Nature</category>
+      <correct_answer>13.8 Billion Years</correct_answer>
+      <difficulty>medium</difficulty>
+      <incorrect_answers>
+        <element>4.5 Billion Years</element>
+        <element>7.9 Billion Years</element>
+        <element>16.2 Billion Years</element>
+      </incorrect_answers>
+      <question>How old is the universe?</question>
+      <type>multiple</type>
+    </element>
+  </results>
+</root>
