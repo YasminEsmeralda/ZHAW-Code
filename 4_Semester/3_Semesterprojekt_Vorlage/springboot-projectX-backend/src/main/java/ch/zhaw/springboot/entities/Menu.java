@@ -1,15 +1,17 @@
 package ch.zhaw.springboot.entities;
 
+import java.util.List;
+
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
 @Entity
 public class Menu extends Navigation{
 
 	private String name;
 	
+	//mehrwertig
+	private List<Navigation> children;
+		
 	//default constructor 
 	public Menu() {
 		super();

@@ -1,0 +1,501 @@
+id,name,industry
+1,Leffler Inc,Major Banks
+2,Smith-Thompson,Trucking Freight/Courier Services
+3,Swift-Larkin,Computer Software: Prepackaged Software
+4,Mante-Kuhic,Electronic Components
+5,Waters LLC,Professional Services
+6,Marquardt LLC,Medical/Dental Instruments
+7,Franecki-Heathcote,Commercial Banks
+8,Parisian-Johnston,Oilfield Services/Equipment
+9,"Maggio, Stiedemann and Okuneva",n/a
+10,Nienow-Mante,Consumer Specialties
+11,"Sporer, Funk and Ferry",Computer Software: Prepackaged Software
+12,Carroll-Stiedemann,Investment Managers
+13,"Grady, Feeney and Bernhard",Steel/Iron Ore
+14,Reynolds Group,EDP Services
+15,Littel-Mayert,Other Specialty Stores
+16,Cole-Beatty,Major Banks
+17,Bruen-Mertz,Major Pharmaceuticals
+18,Price-Ondricka,n/a
+19,"O'Reilly, Larson and Turcotte",n/a
+20,"Dibbert, Fay and Brown",Oil & Gas Production
+21,Yost-Ruecker,Homebuilding
+22,Grant-Lang,Telecommunications Equipment
+23,Mueller-Stiedemann,n/a
+24,"Crona, Grady and Gerlach",n/a
+25,Kuphal and Sons,n/a
+26,Gleichner-Williamson,Auto Parts:O.E.M.
+27,Goyette-Ratke,Auto Manufacturing
+28,Beier Group,Precious Metals
+29,Funk and Sons,Major Banks
+30,Murphy Inc,Property-Casualty Insurers
+31,Treutel-Lemke,Precious Metals
+32,Hickle-Boyer,Semiconductors
+33,Rodriguez and Sons,n/a
+34,"Zemlak, Mraz and Botsford",Major Banks
+35,Krajcik-Marvin,n/a
+36,Jast and Sons,Oil & Gas Production
+37,"Cummerata, Nikolaus and Lehner",Computer Manufacturing
+38,Morissette-Swift,Investment Bankers/Brokers/Service
+39,Wehner-Douglas,Major Banks
+40,Turner Group,n/a
+41,Yost and Sons,Business Services
+42,Daniel LLC,n/a
+43,Hessel-Hoppe,n/a
+44,Langworth Inc,Containers/Packaging
+45,"Schaefer, Bernhard and Simonis",Real Estate Investment Trusts
+46,Anderson LLC,Real Estate Investment Trusts
+47,"Kreiger, Lowe and Ratke",n/a
+48,"Reichel, Nicolas and Collins",Real Estate Investment Trusts
+49,Mayer LLC,Home Furnishings
+50,Marquardt-Lebsack,Major Banks
+51,Williamson-Gleichner,Biotechnology: Biological Products (No Diagnostic Substances)
+52,Lueilwitz LLC,Advertising
+53,"Hagenes, Kemmer and O'Conner",Savings Institutions
+54,Reynolds-Williamson,Integrated oil Companies
+55,"Windler, Sanford and Hickle",Other Consumer Services
+56,Kohler-Schowalter,Semiconductors
+57,Collins Inc,Real Estate Investment Trusts
+58,Dibbert-Rowe,Major Banks
+59,Rice Group,Semiconductors
+60,Pagac-Kulas,Professional Services
+61,Mueller Inc,Telecommunications Equipment
+62,Lowe-Corwin,Investment Bankers/Brokers/Service
+63,Emmerich Group,Telecommunications Equipment
+64,"Torp, Becker and Batz",n/a
+65,Hudson and Sons,Advertising
+66,Swaniawski and Sons,Finance: Consumer Services
+67,Abshire-Marks,Biotechnology: Commercial Physical & Biological Resarch
+68,Stehr-Dibbert,Mining & Quarrying of Nonmetallic Minerals (No Fuels)
+69,Bruen-Schmidt,Beverages (Production/Distribution)
+70,Nolan Group,Major Pharmaceuticals
+71,"Brakus, Hintz and Leffler",Plastic Products
+72,Swaniawski LLC,Industrial Machinery/Components
+73,Simonis Group,n/a
+74,Reilly-Shields,Water Supply
+75,"Bahringer, Flatley and Bauch",n/a
+76,"Rowe, Gerhold and Dare",n/a
+77,"Koss, Schowalter and Hagenes",Finance: Consumer Services
+78,Hilll-Bartoletti,n/a
+79,Fritsch and Sons,n/a
+80,Kilback-O'Keefe,Other Consumer Services
+81,"Klein, Parker and Beier",n/a
+82,Carter-Schamberger,n/a
+83,Roberts Group,Major Pharmaceuticals
+84,Keebler-Spencer,EDP Services
+85,Becker-Cronin,Restaurants
+86,Hermiston LLC,n/a
+87,"Reinger, Johnston and Swift",n/a
+88,"Beier, Bogisich and Heaney",n/a
+89,Renner-Becker,Real Estate Investment Trusts
+90,Schoen-Greenholt,Precious Metals
+91,Heller and Sons,Commercial Banks
+92,Romaguera LLC,Major Pharmaceuticals
+93,Haley-Kihn,n/a
+94,"Armstrong, Howe and Beatty",n/a
+95,Quigley-Cummings,Recreational Products/Toys
+96,"Mills, Spinka and Upton",Telecommunications Equipment
+97,"Koch, Koch and Tromp",Major Banks
+98,"Harris, Hintz and Tillman",Biotechnology: Biological Products (No Diagnostic Substances)
+99,Schmidt-Skiles,Investment Bankers/Brokers/Service
+100,"Nicolas, Gerhold and McDermott",Savings Institutions
+101,"Simonis, Conroy and Leffler",Major Pharmaceuticals
+102,Willms-McGlynn,Major Pharmaceuticals
+103,Ullrich LLC,Finance: Consumer Services
+104,"Hammes, Bechtelar and Stamm",Containers/Packaging
+105,Kautzer-Ebert,n/a
+106,Grant Group,n/a
+107,"Anderson, Kessler and Mohr",Medical/Dental Instruments
+108,"Dickinson, Legros and O'Hara",Major Pharmaceuticals
+109,Frami and Sons,Biotechnology: Commercial Physical & Biological Resarch
+110,Abbott-Doyle,Real Estate Investment Trusts
+111,"Maggio, Koch and Bernier",Specialty Chemicals
+112,Dare and Sons,Oil Refining/Marketing
+113,"Labadie, Zulauf and Cruickshank",n/a
+114,Lesch-Anderson,Industrial Machinery/Components
+115,Rogahn-Ortiz,Metal Fabrications
+116,Bins and Sons,n/a
+117,"Kozey, Collier and Oberbrunner",Other Transportation
+118,"Runte, Johnston and Hermann",Fluid Controls
+119,Graham Inc,n/a
+120,West LLC,Other Specialty Stores
+121,"Stroman, DuBuque and Gleichner",Major Pharmaceuticals
+122,Gutmann-Ziemann,Major Pharmaceuticals
+123,"Heller, Kuphal and Gottlieb",Metal Fabrications
+124,"Zulauf, Veum and Bergnaum",Semiconductors
+125,Weber-Corwin,Industrial Machinery/Components
+126,Miller-Larson,Finance: Consumer Services
+127,"Braun, Walker and Kirlin",Major Chemicals
+128,Wyman-Cartwright,Banks
+129,White-Turcotte,n/a
+130,"Stiedemann, Blick and Dickens",Clothing/Shoe/Accessory Stores
+131,"Schaefer, Osinski and Jones",Medical/Dental Instruments
+132,Will Inc,Biotechnology: Electromedical & Electrotherapeutic Apparatus
+133,Padberg LLC,Major Pharmaceuticals
+134,Bogisich LLC,Industrial Machinery/Components
+135,Cruickshank Group,n/a
+136,Doyle LLC,Coal Mining
+137,Schneider and Sons,Commercial Banks
+138,Gutkowski-Stark,Major Banks
+139,Quitzon-Pfeffer,Radio And Television Broadcasting And Communications Equipment
+140,Jerde-Russel,n/a
+141,Turner Group,n/a
+142,O'Kon-Okuneva,Metal Fabrications
+143,Batz-Wehner,Farming/Seeds/Milling
+144,"Hammes, Dicki and Conn",Business Services
+145,Padberg-Johnston,Major Banks
+146,Greenholt-Abernathy,n/a
+147,"Dietrich, Kerluke and Sawayn",Electric Utilities: Central
+148,Koelpin-Hermiston,Semiconductors
+149,"Reichel, Oberbrunner and Gutkowski",Electrical Products
+150,"Roob, Pouros and Rodriguez",Biotechnology: In Vitro & In Vivo Diagnostic Substances
+151,Gislason-Kuphal,n/a
+152,Romaguera and Sons,Auto Manufacturing
+153,Nienow Group,n/a
+154,Harber-Hackett,Real Estate Investment Trusts
+155,Gerlach Group,Major Banks
+156,Leffler-Stroman,Department/Specialty Retail Stores
+157,"Roberts, Lockman and Stokes",Commercial Banks
+158,Hoeger-Bartell,n/a
+159,"Purdy, Wisoky and Jakubowski",n/a
+160,McKenzie-Altenwerth,Auto Parts:O.E.M.
+161,"Ernser, Senger and Lind",Major Pharmaceuticals
+162,Turner LLC,Industrial Specialties
+163,"Powlowski, Wilderman and Reynolds",Major Banks
+164,"Blanda, Leannon and Crona",n/a
+165,Mohr LLC,Office Equipment/Supplies/Services
+166,"Abernathy, White and Trantow",n/a
+167,"Bernhard, Wolf and Barrows",n/a
+168,Kris-Schmeler,n/a
+169,"Yost, Parisian and Boehm",Major Pharmaceuticals
+170,"Kshlerin, Satterfield and Watsica",n/a
+171,Schulist Inc,Industrial Machinery/Components
+172,Jast Inc,n/a
+173,Berge LLC,n/a
+174,Thiel and Sons,Electronic Components
+175,Stracke Group,Oil & Gas Production
+176,Macejkovic and Sons,Other Specialty Stores
+177,"Lehner, Prohaska and Walter",Major Pharmaceuticals
+178,"Boyle, Kohler and Bode",Diversified Commercial Services
+179,Walter-Emmerich,Biotechnology: Laboratory Analytical Instruments
+180,McCullough-Schmeler,Semiconductors
+181,"Rutherford, Anderson and Pacocha",Savings Institutions
+182,Boyer-Hickle,Major Pharmaceuticals
+183,Gottlieb-Reichel,Marine Transportation
+184,Fisher-Kling,Biotechnology: Biological Products (No Diagnostic Substances)
+185,Dickens-Hessel,Medical/Dental Instruments
+186,Strosin LLC,Major Banks
+187,Kohler-Thompson,Real Estate Investment Trusts
+188,"Bruen, Hane and Strosin",Major Banks
+189,Mertz-Bernhard,EDP Services
+190,"King, Kovacek and Connelly",Packaged Foods
+191,"Breitenberg, Flatley and West",Building Materials
+192,Stark LLC,Major Pharmaceuticals
+193,Tremblay-Larkin,Life Insurance
+194,"Durgan, Shanahan and Smitham",Beverages (Production/Distribution)
+195,"Dickens, Block and Hansen",Electric Utilities: Central
+196,Feeney-Johns,Metal Fabrications
+197,"Homenick, Feest and Hintz",Real Estate Investment Trusts
+198,"Pacocha, Monahan and Fritsch",Finance: Consumer Services
+199,Corwin-Kemmer,Electric Utilities: Central
+200,"Hessel, Luettgen and Streich",Real Estate
+201,"Blanda, Kassulke and Kassulke",Semiconductors
+202,"Nitzsche, Bergnaum and Ullrich",Electrical Products
+203,Schuster-Anderson,Major Pharmaceuticals
+204,"Emmerich, Heidenreich and Berge",Restaurants
+205,Strosin-Kub,n/a
+206,Hauck-Hoppe,Farming/Seeds/Milling
+207,Schoen-Hartmann,n/a
+208,"Hodkiewicz, Hyatt and Turcotte",Telecommunications Equipment
+209,Bednar-Walsh,Specialty Chemicals
+210,Jast-Parisian,Major Chemicals
+211,Huels-Prosacco,Major Pharmaceuticals
+212,Schmitt-Koelpin,Business Services
+213,Walker Group,Business Services
+214,Rutherford-Osinski,Professional Services
+215,Larson-Bernhard,Television Services
+216,Krajcik-Beer,n/a
+217,Kuhic and Sons,Metal Fabrications
+218,Hills-Quigley,Food Distributors
+219,Douglas-Pfeffer,Business Services
+220,"Glover, Smitham and Schuster",Miscellaneous manufacturing industries
+221,Kerluke-Cole,n/a
+222,Keeling-Langosh,Savings Institutions
+223,Anderson-Barrows,n/a
+224,Legros-Breitenberg,Air Freight/Delivery Services
+225,Rodriguez-Herman,Steel/Iron Ore
+226,"Hansen, Sawayn and Collier",Electric Utilities: Central
+227,"Schimmel, Terry and Dach",n/a
+228,Willms Inc,Investment Bankers/Brokers/Service
+229,"Padberg, Howell and Halvorson",Marine Transportation
+230,Hahn and Sons,Major Pharmaceuticals
+231,Lehner Group,"Computer Software: Programming, Data Processing"
+232,"Bergnaum, Leuschke and Schuppe",Business Services
+233,Heidenreich Group,Life Insurance
+234,Bradtke Inc,Biotechnology: Biological Products (No Diagnostic Substances)
+235,"Beahan, Murphy and McCullough",n/a
+236,Schaefer Inc,Investment Bankers/Brokers/Service
+237,Mosciski and Sons,Miscellaneous manufacturing industries
+238,Mayert Group,n/a
+239,Schmitt-Berge,Major Pharmaceuticals
+240,Ziemann Inc,n/a
+241,"Bednar, Greenfelder and Connelly",Savings Institutions
+242,Weimann and Sons,Major Banks
+243,Anderson Inc,Telecommunications Equipment
+244,Walker LLC,n/a
+245,"Gutkowski, Smitham and Nicolas",Air Freight/Delivery Services
+246,Kuvalis-Fadel,Other Consumer Services
+247,"Wolf, Rodriguez and Ferry",n/a
+248,Rolfson-Kertzmann,Major Pharmaceuticals
+249,Harber LLC,Major Banks
+250,Huel Group,n/a
+251,Kuphal-Hegmann,Finance: Consumer Services
+252,Volkman-Hilll,"Computer Software: Programming, Data Processing"
+253,Gerhold-Gibson,n/a
+254,Schoen Group,Ordnance And Accessories
+255,Wunsch LLC,Biotechnology: Commercial Physical & Biological Resarch
+256,"Bergnaum, Dicki and Reichel",Marine Transportation
+257,"Becker, Wehner and Kovacek",Building Materials
+258,Dietrich LLC,Restaurants
+259,"Hartmann, Powlowski and Schoen",EDP Services
+260,Harris and Sons,Major Pharmaceuticals
+261,"Cremin, Sawayn and Wiza",n/a
+262,Zboncak-Hilll,Medical/Dental Instruments
+263,Green-Kovacek,"Computer Software: Programming, Data Processing"
+264,Reinger LLC,n/a
+265,Ortiz-Mayer,n/a
+266,Leffler-Ziemann,Diversified Commercial Services
+267,Kirlin and Sons,Electric Utilities: Central
+268,Kshlerin-Walker,Business Services
+269,Haag-Carroll,Semiconductors
+270,"Stiedemann, Graham and Koch",Industrial Specialties
+271,Schumm Group,Major Pharmaceuticals
+272,"Kuphal, Nicolas and Metz",Automotive Aftermarket
+273,Russel Inc,Other Specialty Stores
+274,"Steuber, Gottlieb and Lang",Investment Managers
+275,Mills-Stamm,Biotechnology: Electromedical & Electrotherapeutic Apparatus
+276,Homenick-Schamberger,Oil Refining/Marketing
+277,Satterfield-Hamill,Oil Refining/Marketing
+278,Larson-Quitzon,Radio And Television Broadcasting And Communications Equipment
+279,"Crist, Gerlach and Hegmann",Major Pharmaceuticals
+280,"Mosciski, Stoltenberg and White",Restaurants
+281,"Kessler, Adams and Willms",EDP Services
+282,Zemlak-Kris,n/a
+283,Blanda-Bashirian,n/a
+284,"Conn, Trantow and Powlowski",n/a
+285,"Koss, Kuhn and Bradtke",Business Services
+286,Labadie LLC,Real Estate
+287,Lind-Kessler,n/a
+288,Gleichner Group,Marine Transportation
+289,"Schowalter, Konopelski and Herzog",Auto Parts:O.E.M.
+290,"Bauch, Kirlin and Schaden",n/a
+291,"Gislason, Glover and Weber",Major Chemicals
+292,"Mills, Konopelski and Kovacek",Real Estate Investment Trusts
+293,Bayer-Mueller,n/a
+294,Mohr-Langosh,Biotechnology: Biological Products (No Diagnostic Substances)
+295,Okuneva Group,Major Banks
+296,"Harris, Gutmann and Spinka",Industrial Machinery/Components
+297,"Keebler, Pouros and Kihn",Plastic Products
+298,Herman-Anderson,Semiconductors
+299,Windler and Sons,Investment Managers
+300,Langworth Group,n/a
+301,Fahey Inc,Paper
+302,Windler-Lakin,Electric Utilities: Central
+303,"Runolfsdottir, Monahan and McLaughlin",EDP Services
+304,"Ebert, Hyatt and Effertz",Ophthalmic Goods
+305,Nikolaus Group,n/a
+306,Brown-Lockman,Savings Institutions
+307,"Schinner, Hilpert and Dickens",Major Pharmaceuticals
+308,Gleason Inc,Radio And Television Broadcasting And Communications Equipment
+309,Auer and Sons,Natural Gas Distribution
+310,"Gerhold, Simonis and Cummerata",Business Services
+311,Brown-Corwin,Medical/Dental Instruments
+312,"Rowe, VonRueden and Connelly",Major Pharmaceuticals
+313,Runolfsson Group,Real Estate Investment Trusts
+314,"Becker, Nienow and Wehner",Real Estate
+315,"Blick, Hoppe and Bernhard",RETAIL: Building Materials
+316,Bashirian-Stehr,Diversified Commercial Services
+317,"Kshlerin, Fisher and Raynor",Medical Specialities
+318,"Mitchell, Ondricka and Larson",n/a
+319,"Boehm, Veum and Emard",Property-Casualty Insurers
+320,Streich and Sons,Electrical Products
+321,"Stark, Monahan and Torp",Agricultural Chemicals
+322,"Blanda, Morissette and Olson",Restaurants
+323,"Rolfson, Price and Cronin",Marine Transportation
+324,Abbott-Marvin,n/a
+325,Ferry LLC,Real Estate Investment Trusts
+326,Spencer and Sons,"Computer Software: Programming, Data Processing"
+327,Auer and Sons,n/a
+328,"Gislason, Feil and Veum",Water Supply
+329,"Leffler, Rau and Yundt",Major Banks
+330,Collins LLC,n/a
+331,"Rutherford, Harvey and Gaylord",n/a
+332,Reichert Group,n/a
+333,Hickle-Wyman,Industrial Machinery/Components
+334,"Hagenes, Corkery and Breitenberg",Biotechnology: In Vitro & In Vivo Diagnostic Substances
+335,Fadel-Cummings,Department/Specialty Retail Stores
+336,"Blick, McLaughlin and Effertz",Oil Refining/Marketing
+337,"Murray, Kuhlman and Zieme",Plastic Products
+338,"Dicki, Schiller and Crooks",Real Estate Investment Trusts
+339,"Jerde, Volkman and Flatley",Auto Manufacturing
+340,Kemmer-Gaylord,Miscellaneous manufacturing industries
+341,Cruickshank-Kshlerin,Business Services
+342,"Prosacco, Daniel and Bernhard",n/a
+343,"Dibbert, Batz and Willms",Finance: Consumer Services
+344,West-Kuhn,n/a
+345,Hansen-Greenholt,Recreational Products/Toys
+346,Haag and Sons,Computer Software: Prepackaged Software
+347,Kuphal-Schinner,n/a
+348,Oberbrunner-Wehner,Clothing/Shoe/Accessory Stores
+349,Bode-Breitenberg,Savings Institutions
+350,Toy-Crist,Computer Software: Prepackaged Software
+351,"Okuneva, Christiansen and Braun",n/a
+352,"Borer, Jenkins and Schaden",Major Pharmaceuticals
+353,Wilkinson-Treutel,Biotechnology: Commercial Physical & Biological Resarch
+354,"Koch, Rice and Carter",Beverages (Production/Distribution)
+355,Wilkinson-Kerluke,Advertising
+356,"Wehner, Koch and Rogahn",Business Services
+357,Gottlieb LLC,Finance: Consumer Services
+358,"Schaefer, Dicki and Treutel",Industrial Machinery/Components
+359,"Dickens, Sawayn and Krajcik",n/a
+360,Koss-Towne,Hotels/Resorts
+361,"O'Reilly, Reichel and Emmerich",Advertising
+362,Runte-Hartmann,Major Pharmaceuticals
+363,"Koepp, Moore and Fritsch",Power Generation
+364,Carter Group,Computer Software: Prepackaged Software
+365,Bradtke-Tremblay,Major Chemicals
+366,"Luettgen, Witting and Pfeffer",n/a
+367,Lebsack-Kris,Biotechnology: Laboratory Analytical Instruments
+368,"Jacobson, Littel and Renner",Major Pharmaceuticals
+369,"Stanton, Robel and Smitham",n/a
+370,Carter-Zemlak,Specialty Insurers
+371,"Schroeder, Waelchi and Stiedemann",n/a
+372,"Runolfsdottir, Walter and Hoeger",Semiconductors
+373,"Boyer, Anderson and Bode",Real Estate Investment Trusts
+374,Renner-Bauch,EDP Services
+375,Kuvalis-Jast,Biotechnology: Biological Products (No Diagnostic Substances)
+376,Legros and Sons,Industrial Specialties
+377,Shields-Rutherford,Metal Fabrications
+378,"Runolfsdottir, Lebsack and Larson",Semiconductors
+379,Schultz Group,Computer peripheral equipment
+380,"Ratke, Buckridge and Dibbert",Electrical Products
+381,Nienow and Sons,Real Estate Investment Trusts
+382,Batz-Terry,Precious Metals
+383,Schaefer-Jacobson,n/a
+384,"Hand, Anderson and Wehner",Medical Specialities
+385,Ruecker and Sons,Biotechnology: In Vitro & In Vivo Diagnostic Substances
+386,Kuhn-Volkman,Electronic Components
+387,Sauer-McCullough,Professional Services
+388,"Morissette, Weber and Gaylord",Real Estate Investment Trusts
+389,Streich Inc,n/a
+390,"Jacobson, Shields and Labadie",Investment Managers
+391,Aufderhar-Tillman,Apparel
+392,Quitzon-Blanda,Computer Software: Prepackaged Software
+393,"Ernser, Haag and Veum",Oil & Gas Production
+394,Graham Inc,Consumer Electronics/Appliances
+395,"Heller, Doyle and Dietrich",Major Pharmaceuticals
+396,Bode and Sons,Property-Casualty Insurers
+397,Bergnaum-Rippin,n/a
+398,Schuppe-Ebert,Office Equipment/Supplies/Services
+399,"Schultz, Jones and Hane",n/a
+400,"Hickle, Daugherty and Powlowski",Investment Bankers/Brokers/Service
+401,Wyman-Marvin,Major Pharmaceuticals
+402,Wyman Group,Hotels/Resorts
+403,Stracke-Marks,n/a
+404,"Considine, Kuhlman and Schroeder",Biotechnology: Biological Products (No Diagnostic Substances)
+405,"Price, Bergstrom and Hackett",Computer Software: Prepackaged Software
+406,Sipes-Deckow,Major Banks
+407,Franecki LLC,Investment Managers
+408,Waters LLC,n/a
+409,Rath Inc,Semiconductors
+410,"Mraz, Turcotte and Lakin",n/a
+411,Dietrich and Sons,Investment Bankers/Brokers/Service
+412,Pfannerstill LLC,n/a
+413,"Bartell, Marvin and Rogahn",Specialty Chemicals
+414,Quigley and Sons,n/a
+415,"Romaguera, Luettgen and Bahringer",Electric Utilities: Central
+416,Gusikowski LLC,n/a
+417,Lueilwitz-O'Reilly,Major Banks
+418,Gleichner-Gislason,Major Pharmaceuticals
+419,Bartell-Wolf,Newspapers/Magazines
+420,Gutkowski LLC,Consumer Electronics/Appliances
+421,O'Connell-Harris,n/a
+422,"Gutmann, Smith and Ledner",Major Pharmaceuticals
+423,"Gutmann, Orn and Howe",Computer Software: Prepackaged Software
+424,Hills-Hayes,Radio And Television Broadcasting And Communications Equipment
+425,"Zulauf, Hessel and Bahringer",n/a
+426,Lang-Schiller,Major Banks
+427,Dickens LLC,Finance: Consumer Services
+428,Heidenreich-Ebert,Railroads
+429,"VonRueden, Jacobs and Legros",Shoe Manufacturing
+430,"Wiza, Hoeger and Hammes",n/a
+431,Schaefer-Batz,n/a
+432,Paucek-Hills,Medical/Dental Instruments
+433,Cassin Group,Business Services
+434,Ledner Group,n/a
+435,Lindgren LLC,Other Specialty Stores
+436,Ankunding-Lehner,Biotechnology: Laboratory Analytical Instruments
+437,Grimes and Sons,Natural Gas Distribution
+438,"Barton, Becker and Ondricka",n/a
+439,Wunsch-Schulist,Apparel
+440,Blanda and Sons,Marine Transportation
+441,Fisher-Maggio,EDP Services
+442,Strosin Group,Other Consumer Services
+443,Cartwright LLC,n/a
+444,Harber and Sons,n/a
+445,"Moen, Walker and Terry",Major Banks
+446,Pollich-Quitzon,Mining & Quarrying of Nonmetallic Minerals (No Fuels)
+447,Streich and Sons,Electronic Components
+448,Waelchi LLC,n/a
+449,"Hilpert, Boehm and Feest",Major Pharmaceuticals
+450,"Kerluke, Von and Schimmel",Investment Managers
+451,"Wyman, Stiedemann and Parker",Major Pharmaceuticals
+452,Bauch-Graham,Environmental Services
+453,Walker-Lemke,n/a
+454,Lind-Yundt,Real Estate Investment Trusts
+455,"Blick, Dickinson and Kassulke",Computer Software: Prepackaged Software
+456,Paucek-Donnelly,n/a
+457,Dickinson Group,Life Insurance
+458,"Howe, Braun and Hammes",Home Furnishings
+459,"Gutmann, Kutch and VonRueden",Savings Institutions
+460,Waelchi Group,n/a
+461,Flatley-Bartell,n/a
+462,Conn-Beer,Computer Software: Prepackaged Software
+463,Sipes-Murphy,Biotechnology: Biological Products (No Diagnostic Substances)
+464,"Kris, King and Beier",Banks
+465,"Kunze, Pfannerstill and Ullrich",EDP Services
+466,Walsh-Turcotte,Computer Software: Prepackaged Software
+467,Luettgen and Sons,Property-Casualty Insurers
+468,"Fay, Wintheiser and Borer",n/a
+469,Kshlerin Inc,Medical/Dental Instruments
+470,Harber-Cole,Agricultural Chemicals
+471,"Olson, Marquardt and Williamson",Medical Specialities
+472,O'Keefe-Olson,n/a
+473,Lehner-Green,Oil Refining/Marketing
+474,Schinner-Cummerata,n/a
+475,Kris-Mohr,Business Services
+476,Mertz-Thompson,Banks
+477,Kerluke Inc,Industrial Machinery/Components
+478,Wiegand-Buckridge,Industrial Machinery/Components
+479,Streich LLC,n/a
+480,"Lehner, Abshire and Jerde",Computer Software: Prepackaged Software
+481,Rodriguez-Wilderman,Aerospace
+482,"Blick, Weissnat and Kulas",Major Pharmaceuticals
+483,Cronin-Thiel,n/a
+484,Block-Kovacek,Real Estate Investment Trusts
+485,Ledner Inc,Real Estate Investment Trusts
+486,Hane-O'Keefe,Industrial Machinery/Components
+487,Kulas LLC,Major Pharmaceuticals
+488,Tremblay LLC,Finance: Consumer Services
+489,Streich Group,Major Pharmaceuticals
+490,"Hilll, Johnston and Jaskolski",Services-Misc. Amusement & Recreation
+491,"McCullough, Rowe and Kunde",Movies/Entertainment
+492,"Watsica, Kiehn and Veum",Major Banks
+493,Spinka-Towne,Radio And Television Broadcasting And Communications Equipment
+494,Ortiz LLC,Major Pharmaceuticals
+495,Hodkiewicz LLC,Major Banks
+496,"Witting, Gerhold and Pfannerstill",Telecommunications Equipment
+497,Hills Inc,Major Pharmaceuticals
+498,Shields and Sons,Precious Metals
+499,Douglas Group,n/a
+500,Rohan Group,Computer Software: Prepackaged Software
