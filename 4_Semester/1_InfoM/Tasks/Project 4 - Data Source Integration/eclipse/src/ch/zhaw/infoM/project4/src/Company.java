@@ -1,14 +1,14 @@
 package ch.zhaw.infoM.project4.src;
 
 public class Company {
-	
+
 	private int id;
 	private String industry;
 	private String name;
 	private boolean firstCall;
-	
+
 	public Company() {
-		
+
 	}
 
 	public Company(int id, String industry, String name) {
@@ -16,7 +16,7 @@ public class Company {
 		this.industry = industry;
 		this.name = name;
 	}
-	
+
 	public int getId() {
 		return this.id;
 	}
@@ -51,9 +51,8 @@ public class Company {
 
 	@Override
 	public String toString() {
-		return ",(" + this.getId() + 
-			   ", \"" + this.getName() + 
-			   "\", \"" + this.getIndustry() + "\")" + "\n"
-			;
+		
+		return "INSERT INTO infom_project_4.company (pk_companyId, name, industry)" + "\n" + "VALUES" + "\n" +
+				",(" + this.getId() + ", \"" + this.getName() + "\", \"" + this.getIndustry() + "\")" + "\n";
 	}
 }
