@@ -70,7 +70,7 @@ public class PageRestController {
 	}
 	
 	@RequestMapping(value = "website/pages/new", method = RequestMethod.POST)
-	public ResponseEntity<Page> createInfection(@RequestBody PageRequest pageRequest) {
+	public ResponseEntity<Page> createPage(@RequestBody PageRequest pageRequest) {
 
 		try {
 			//Customer customer = this.repositoryCustomer.findById(diaryRequest.customer_id).get();
