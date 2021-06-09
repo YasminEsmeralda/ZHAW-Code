@@ -1,3 +1,3 @@
 select *
-from website.navigation
+from website.provision
 ;
