@@ -29,7 +29,7 @@ public class Page {
 	@Column(name = "name", length = 150)
 	private String name;
 	
-	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.REMOVE)
+	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
 	@JoinColumn(name = "fk_page_id")
 	private List<Provision> provisions;
 	

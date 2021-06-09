@@ -1,4 +1,4 @@
 select * 
 -- from website.navigation as n
-from website.page as p
+from website.navigation as n
 ;

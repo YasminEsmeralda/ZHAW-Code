@@ -27,11 +27,11 @@ public class Provision {
 	@Column(name = "date_to")
 	private Date dateTo;
 	
-	@ManyToOne(fetch = FetchType.EAGER)
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "fk_page_id")
 	private Page page;	
 	
-	@ManyToOne(fetch = FetchType.EAGER)
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "fk_navigation_id")
 	private Navigation navigation;
 	
@@ -60,22 +60,6 @@ public class Provision {
 
 	public void setDateTo(Date dateTo) {
 		this.dateTo = dateTo;
-	}
-
-	public Page getPage() {
-		return page;
-	}
-
-	public void setPage(Page page) {
-		this.page = page;
-	}
-
-	public Navigation getNavigation() {
-		return navigation;
-	}
-
-	public void setNavigation(Navigation navigation) {
-		this.navigation = navigation;
 	}
 
 	public long getId() {

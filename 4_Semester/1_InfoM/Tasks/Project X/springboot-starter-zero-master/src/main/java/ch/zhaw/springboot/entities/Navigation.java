@@ -19,6 +19,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 
 @Entity(name = "Navigation")
@@ -35,11 +37,11 @@ public class Navigation {
 	@Column(name = "layout", length = 50)
 	private String layout;
 	
-	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.REMOVE)
+	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
 	@JoinColumn(name = "fk_navigation_id")
 	private List<Provision> provisions;
 	
-	@ManyToOne(fetch = FetchType.EAGER)
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "fk_menu_id")
 	private Menu menu;	//parent
 	
@@ -62,6 +64,24 @@ public class Navigation {
 	
 	public long getId() {
 		return id;
+	}
+
+	public List<Provision> getProvisions() {
+		return provisions;
+	}
+
+	public void setProvisions(List<Provision> provisions) {
+		this.provisions = provisions;
+	}
+	
+	@JsonIgnore
+	public Menu getMenu() {
+		return menu;
+	}
+
+	public void setMenu(Menu menu) {
+		this.menu = menu;
+		menu.addChild(this);
 	}
 
 }

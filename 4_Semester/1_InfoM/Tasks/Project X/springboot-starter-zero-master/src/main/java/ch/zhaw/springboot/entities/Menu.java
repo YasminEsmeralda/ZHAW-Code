@@ -19,7 +19,7 @@ public class Menu extends Navigation{
 	@Column(name = "label", length = 25)
 	private String label;
 	
-	@OneToMany(fetch = FetchType.EAGER)
+	@OneToMany(fetch = FetchType.LAZY)
 	@JoinColumn(name = "fk_menu_id")
 	private List<Navigation> navigations; // children
 	
@@ -40,6 +40,20 @@ public class Menu extends Navigation{
 
 	public void setLabel(String label) {
 		this.label = label;
+	}
+	
+	public List<Navigation> getNavigations() {
+		return navigations;
+	}
+
+	public void addChild(Navigation navigation) {
+		if (navigation.getMenu() == null) {
+			navigation.setMenu(this);
+		}
+		
+		if (!this.navigations.contains(navigation)) {
+			this.navigations.add(navigation);
+		}
 	}
 
 }

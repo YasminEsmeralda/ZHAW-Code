@@ -1,0 +1,10 @@
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (1, '2005-07-22', '2015-06-01', 7, 5);
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (2, '2004-05-08', '2015-10-16', 2, 4);
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (3, '2005-05-17', '2012-07-01', 4, 3);
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (4, '2006-11-19', '2011-12-15', 9, 4);
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (5, '2005-06-07', '2019-10-22', 1, 2);
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (6, '2002-05-05', '2014-11-19', 1, 3);
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (7, '2006-08-11', '2019-06-27', 9, 1);
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (8, '2006-07-17', '2013-07-30', 3, 5);
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (9, '2006-07-27', '2015-07-30', 7, 4);
+insert into website.provision (pk_provision_id, date_from, date_to, fk_navigation_id, fk_page_id) values (10, '2005-08-28', '2011-02-26', 3, 4);
