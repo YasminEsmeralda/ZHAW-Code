@@ -7,11 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import ch.zhaw.springboot.entities.Navigation;
+import ch.zhaw.springboot.models.NavigationRequest;
 import ch.zhaw.springboot.repositories.ItemRepository;
 import ch.zhaw.springboot.repositories.MenuRepository;
 import ch.zhaw.springboot.repositories.NavigationRepository;
@@ -67,5 +69,19 @@ public class NavigationRestController {
 		}
 
 		return new ResponseEntity<List<Navigation>>(result, HttpStatus.OK);
+	}
+	
+	@RequestMapping(value = "website/navigations/new", method = RequestMethod.POST)
+	public ResponseEntity<Navigation> creatPerson(@RequestBody NavigationRequest navigationRequest) {
+		
+		Navigation result;
+		
+		try {
+			//Customer customer = this.repositoryCustomer.findById(diaryRequest.customer_id).get();
+			result = this.repository.save(new Navigation(navigationRequest.layout));
+			return new ResponseEntity<Navigation>(result, HttpStatus.NOT_FOUND);
+		} catch (Exception e) {
+			return new ResponseEntity<Navigation>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
 	}
 }

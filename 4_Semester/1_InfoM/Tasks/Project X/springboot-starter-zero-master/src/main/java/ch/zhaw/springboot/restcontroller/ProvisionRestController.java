@@ -75,7 +75,7 @@ public class ProvisionRestController {
 
 		try {
 			Page page = this.repositoryPage.findById(provisionRequest.page_id).get();
-			Navigation navigation = this.repositoryNavigation.findById(provisionRequest.page_id).get();
+			Navigation navigation = this.repositoryNavigation.findById(provisionRequest.navigation_id).get();
 			Provision result = this.repository.save(new Provision(provisionRequest.dateFrom, provisionRequest.dateTo, page, navigation));
 			return new ResponseEntity<Provision>(result, HttpStatus.NOT_FOUND);
 		} catch (Exception e) {
@@ -84,18 +84,18 @@ public class ProvisionRestController {
 
 	}
 	
-	@RequestMapping(value = "website/provisions/delete={id}", method = RequestMethod.DELETE)
-	public ResponseEntity<String> deleteProvisionById(@PathVariable("id") long id, RedirectAttributes redirAttrs) {
-		boolean exists = repository.existsById(id);
-
-		if (exists) {
-			this.repository.deleteById(id);
-			return new ResponseEntity<String>(HttpStatus.NO_CONTENT);
-		} else {
-			redirAttrs.addFlashAttribute("msginfo", "ctl-todo.delete.msginfo.id-not-exist");
-			redirAttrs.addFlashAttribute("requestedId", id);
-
-			return new ResponseEntity<String>("redirect:/todo/delete" + id, HttpStatus.CONFLICT);
-		}
-	}
+//	@RequestMapping(value = "website/provisions/delete={id}", method = RequestMethod.DELETE)
+//	public ResponseEntity<String> deleteProvisionById(@PathVariable("id") long id, RedirectAttributes redirAttrs) {
+//		boolean exists = repository.existsById(id);
+//
+//		if (exists) {
+//			this.repository.deleteById(id);
+//			return new ResponseEntity<String>(HttpStatus.NO_CONTENT);
+//		} else {
+//			redirAttrs.addFlashAttribute("msginfo", "ctl-todo.delete.msginfo.id-not-exist");
+//			redirAttrs.addFlashAttribute("requestedId", id);
+//
+//			return new ResponseEntity<String>("redirect:/todo/delete" + id, HttpStatus.CONFLICT);
+//		}
+//	}
 }
