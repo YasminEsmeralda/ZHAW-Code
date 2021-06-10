@@ -61,7 +61,7 @@ public class MenuRestController {
 				System.out.println("No parent added");
 			}
 			
-			return new ResponseEntity<Menu>(result, HttpStatus.NOT_FOUND);
+			return new ResponseEntity<Menu>(result, HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<Menu>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}

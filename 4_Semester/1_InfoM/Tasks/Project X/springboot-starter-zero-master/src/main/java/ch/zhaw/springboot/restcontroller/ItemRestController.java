@@ -88,7 +88,7 @@ public class ItemRestController {
 				System.out.println("No parent added");
 			}
 			
-			return new ResponseEntity<Item>(result, HttpStatus.NOT_FOUND);
+			return new ResponseEntity<Item>(result, HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<Item>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
