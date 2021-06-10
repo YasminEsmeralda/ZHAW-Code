@@ -6,19 +6,19 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import ch.zhaw.springboot.entities.Navigation;
-import ch.zhaw.springboot.models.NavigationRequest;
 import ch.zhaw.springboot.repositories.ItemRepository;
 import ch.zhaw.springboot.repositories.MenuRepository;
 import ch.zhaw.springboot.repositories.NavigationRepository;
 
 @RestController
+@CrossOrigin
 public class NavigationRestController {
 
 	@Autowired
@@ -29,7 +29,7 @@ public class NavigationRestController {
 	
 	@Autowired
 	private ItemRepository repositoryItem;
-
+	
 	@RequestMapping(value = "website/navigations", method = RequestMethod.GET)
 	public ResponseEntity<List<Navigation>> getNavigations() {
 		List<Navigation> result = this.repository.findAll();
@@ -41,7 +41,7 @@ public class NavigationRestController {
 		return new ResponseEntity<List<Navigation>>(result, HttpStatus.OK);
 	}
 	
-	@RequestMapping(value = "website/navigations/id={id}", method = RequestMethod.GET)
+	@RequestMapping(value = "website/navigations/{id}", method = RequestMethod.GET)
 	public ResponseEntity<Navigation> getNavigationById(@PathVariable("id") long id) {
 		Optional<Navigation> result = this.repository.findById(id);
 
@@ -51,14 +51,16 @@ public class NavigationRestController {
 
 		return new ResponseEntity<Navigation>(result.get(), HttpStatus.OK);
 	}
-	
-	@RequestMapping(value = "website/navigations/type={type}", method = RequestMethod.GET)
-	public ResponseEntity<List<Navigation>> getNavigationsByType(@PathVariable("type") int type) {
+
+	@RequestMapping(value = "website/navigations/type/{type}", method = RequestMethod.GET)
+	public ResponseEntity<List<Navigation>> getNavigationsByType(@PathVariable("type") String type) {
 		List<Navigation> result;
+		String menu = "menu";
+		String item = "item";
 		
-		if (type == 1) {
+		if (type.equals(menu)) {
 			result = this.repositoryMenu.getNavigationMenu(); 
-		} else if (type == 2) {
+		} else if (type.equals(item)) {
 			result = this.repositoryItem.getNavigationItem(); 
 		} else {
 			return new ResponseEntity<List<Navigation>>(HttpStatus.NOT_ACCEPTABLE);
@@ -70,18 +72,5 @@ public class NavigationRestController {
 
 		return new ResponseEntity<List<Navigation>>(result, HttpStatus.OK);
 	}
-	
-	@RequestMapping(value = "website/navigations/new", method = RequestMethod.POST)
-	public ResponseEntity<Navigation> creatPerson(@RequestBody NavigationRequest navigationRequest) {
-		
-		Navigation result;
-		
-		try {
-			//Customer customer = this.repositoryCustomer.findById(diaryRequest.customer_id).get();
-			result = this.repository.save(new Navigation(navigationRequest.layout));
-			return new ResponseEntity<Navigation>(result, HttpStatus.NOT_FOUND);
-		} catch (Exception e) {
-			return new ResponseEntity<Navigation>(HttpStatus.INTERNAL_SERVER_ERROR);
-		}
-	}
+
 }

@@ -1,4 +1,4 @@
 select *
 from website.navigation
-where navigation_type = 2
+where navigation_type = "menu"
 ;

@@ -1,11 +1,13 @@
 package ch.zhaw.springboot.restcontroller;
 
+import java.sql.Date;
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +20,7 @@ import ch.zhaw.springboot.models.PageRequest;
 import ch.zhaw.springboot.repositories.PageRepository;
 
 @RestController
+@CrossOrigin
 public class PageRestController {
 
 	@Autowired
@@ -34,7 +37,7 @@ public class PageRestController {
 		return new ResponseEntity<List<Page>>(result, HttpStatus.OK);
 	}
 	
-	@RequestMapping(value = "website/pages/id={id}", method = RequestMethod.GET)
+	@RequestMapping(value = "website/pages/{id}", method = RequestMethod.GET)
 	public ResponseEntity<Page> getPageById(@PathVariable("id") long id) {
 		Optional<Page> result = this.repository.findById(id);
 
@@ -46,7 +49,7 @@ public class PageRestController {
 	}
 	
 	//add website to search after .com/.gov with dropdown
-	@RequestMapping(value = "website/pages/name={name}", method = RequestMethod.GET)
+	@RequestMapping(value = "website/pages/name/{name}", method = RequestMethod.GET)
 	public ResponseEntity<List<Page>> getPageByName(@PathVariable("name") String name) {
 		List<Page> result = this.repository.findPageByName(name);
 
@@ -58,7 +61,7 @@ public class PageRestController {
 	}
 	
 	//add website to search after german/italian... with dropdown
-	@RequestMapping(value = "website/pages/language={language}", method = RequestMethod.GET)
+	@RequestMapping(value = "website/pages/language/{language}", method = RequestMethod.GET)
 	public ResponseEntity<List<Page>> getPageByLanguage(@PathVariable("language") String language) {
 		List<Page> result = this.repository.findPageByLanguage(language);
 
@@ -69,7 +72,29 @@ public class PageRestController {
 		}
 	}
 	
-	@RequestMapping(value = "website/pages/new", method = RequestMethod.POST)
+	@RequestMapping(value = "website/pages/byProvison/dateFrom/{date}", method = RequestMethod.GET)
+	public ResponseEntity<List<Page>> getPageByProvisionDateFrom(@PathVariable("date") Date date) {
+		List<Page> result = this.repository.findPageByProvisionDateFrom(date);
+
+		if (!result.isEmpty()) {
+			return new ResponseEntity<List<Page>>(result, HttpStatus.OK);
+		} else {
+			return new ResponseEntity<List<Page>>(HttpStatus.NOT_FOUND);
+		}
+	}
+	
+	@RequestMapping(value = "website/pages/byProvison/dateTo/{date}", method = RequestMethod.GET)
+	public ResponseEntity<List<Page>> getPageByProvisionDateTO(@PathVariable("date") Date date) {
+		List<Page> result = this.repository.findPageByProvisionDateTo(date);
+
+		if (!result.isEmpty()) {
+			return new ResponseEntity<List<Page>>(result, HttpStatus.OK);
+		} else {
+			return new ResponseEntity<List<Page>>(HttpStatus.NOT_FOUND);
+		}
+	}
+	
+	@RequestMapping(value = "website/pages", method = RequestMethod.POST)
 	public ResponseEntity<Page> createPage(@RequestBody PageRequest pageRequest) {
 
 		try {
@@ -82,7 +107,7 @@ public class PageRestController {
 
 	}
 	
-	@RequestMapping(value = "website/pages/delete={id}", method = RequestMethod.DELETE)
+	@RequestMapping(value = "website/pages/{id}", method = RequestMethod.DELETE)
 	public ResponseEntity<String> deletePageById(@PathVariable("id") long id, RedirectAttributes redirAttrs) {
 		boolean exists = repository.existsById(id);
 

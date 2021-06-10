@@ -8,23 +8,23 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import ch.zhaw.springboot.entities.Navigation;
 import ch.zhaw.springboot.entities.Page;
 import ch.zhaw.springboot.entities.Provision;
-import ch.zhaw.springboot.models.PageRequest;
 import ch.zhaw.springboot.models.ProvisionRequest;
 import ch.zhaw.springboot.repositories.NavigationRepository;
 import ch.zhaw.springboot.repositories.PageRepository;
 import ch.zhaw.springboot.repositories.ProvisionRepository;
 
 @RestController
+@CrossOrigin
 public class ProvisionRestController {
 
 	@Autowired
@@ -47,7 +47,7 @@ public class ProvisionRestController {
 		return new ResponseEntity<List<Provision>>(result, HttpStatus.OK);
 	}
 	
-	@RequestMapping(value = "website/provisions/id={id}", method = RequestMethod.GET)
+	@RequestMapping(value = "website/provisions/{id}", method = RequestMethod.GET)
 	public ResponseEntity<Provision> getProvisionById(@PathVariable("id") long id) {
 		Optional<Provision> result = this.repository.findById(id);
 
@@ -59,7 +59,7 @@ public class ProvisionRestController {
 	}
 	
 	//add website to search after from/to with calendar
-	@RequestMapping(value = "website/provisions/date={date}", method = RequestMethod.GET)
+	@RequestMapping(value = "website/provisions/date/{date}", method = RequestMethod.GET)
 	public ResponseEntity<List<Provision>> getProvisionByRange(@PathVariable("date") @DateTimeFormat(pattern = "yyyy-mm-dd") Date date) {
 		List<Provision> result = this.repository.findProvisionByRange(date);
 
@@ -70,7 +70,7 @@ public class ProvisionRestController {
 		}
 	}
 	
-	@RequestMapping(value = "website/provisions/new", method = RequestMethod.POST)
+	@RequestMapping(value = "website/provisions", method = RequestMethod.POST)
 	public ResponseEntity<Provision> createProvision(@RequestBody ProvisionRequest provisionRequest) {
 
 		try {
