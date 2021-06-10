@@ -34,6 +34,9 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#/page"> Pages </a>
+				</li>				
+				<li class="nav-item">
+					<a class="nav-link" href="#/provision"> Provision </a>
 				</li>
 			</ul>
 		</div>

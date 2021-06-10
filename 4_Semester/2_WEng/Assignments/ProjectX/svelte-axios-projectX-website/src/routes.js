@@ -1,7 +1,14 @@
-// Pages
+// Project X: Website
 import Home from "./pages/Home.svelte";
 import DemoPage from "./pages/DemoPage.svelte"
+
+//Page
 import Page from "./pages/pages/page.svelte"
+import CreatePage from "./pages/pages/CreatePage.svelte"
+
+//Provision
+import Provision from "./pages/provisions/provision.svelte"
+import CreateProvision from "./pages/provisions/CreateProvision.svelte"
 
 import Infections from "./pages/infections/Infections.svelte"
 import CreateInfection from "./pages/infections/CreateInfection.svelte"
@@ -20,8 +27,14 @@ export default {
     '/': Home,
     '/home': Home,
     '/demo': DemoPage,
-    '/page': Page,
 
+    // Page
+    '/page': Page,
+    '/create-page': CreatePage,
+
+    // Provision
+    '/provision': Provision,
+    '/create-provision': CreateProvision,
 
     // infections
     '/infections': Infections,

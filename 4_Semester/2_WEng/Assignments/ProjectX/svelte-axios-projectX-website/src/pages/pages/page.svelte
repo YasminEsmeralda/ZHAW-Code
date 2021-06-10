@@ -20,16 +20,22 @@
 
 <div>
     <h1>List of all available Pages</h1>
-
+    <div>
+      <a href="#/create-page">
+        <button type="button" class="btn btn-danger">
+          + Add Page
+        </button>
+      </a>
+  </div>
   {#each pages as page}
-  <div class="accordion" id="{page.id}">
+  <div class="accordion" id="according{page.id}">
     <div class="accordion-item">
-      <h2 class="accordion-header" id="heading{page.id}">
+      <h2 class="accordion-header" id="flush-heading{page.id}">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{page.id}" aria-expanded="true" aria-controls="collapse{page.id}">
           <strong>{page.name}</strong>
         </button>
       </h2>
-      <div id="collapse{page.id}" class="accordion-collapse collapse" aria-labelledby="heading{page.id}" data-bs-parent="#{page.id}">
+      <div id="collapse{page.id}" class="accordion-collapse collapse" aria-labelledby="flush-heading{page.id}" data-bs-parent="#according{page.id}">
         <div class="accordion-body">
           <p><strong>Language: </strong>{page.language}</p>
           <p><strong>This Page provides the following Provisions</strong></p>
@@ -37,8 +43,7 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Date From</th>
-                    <th>Date To</th>
+                    <th>Date</th>
                 </tr>
             </thead>
             <tbody>
@@ -48,10 +53,7 @@
                             {provision.id}
                         </td>
                         <td>
-                            {provision.dateFrom}
-                        </td>
-                        <td>
-                            {provision.dateTo}
+                            <p>from {provision.dateFrom} until {provision.dateTo}</p>
                         </td>
                     </tr>
                 {/each}

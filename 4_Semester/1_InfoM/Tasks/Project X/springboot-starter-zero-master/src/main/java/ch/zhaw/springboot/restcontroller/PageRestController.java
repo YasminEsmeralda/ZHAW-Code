@@ -100,7 +100,7 @@ public class PageRestController {
 		try {
 			//Customer customer = this.repositoryCustomer.findById(diaryRequest.customer_id).get();
 			Page result = this.repository.save(new Page(pageRequest.language, pageRequest.name));
-			return new ResponseEntity<Page>(result, HttpStatus.NOT_FOUND);
+			return new ResponseEntity<Page>(result, HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<Page>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
@@ -113,7 +113,7 @@ public class PageRestController {
 
 		if (exists) {
 			this.repository.deleteById(id);
-			return new ResponseEntity<String>(HttpStatus.NO_CONTENT);
+			return new ResponseEntity<String>(HttpStatus.OK);
 		} else {
 			redirAttrs.addFlashAttribute("msginfo", "ctl-todo.delete.msginfo.id-not-exist");
 			redirAttrs.addFlashAttribute("requestedId", id);
