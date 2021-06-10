@@ -1,0 +1,602 @@
+<DATA>
+
+	<ROW>
+		<pk_page_id>1</pk_page_id>
+		<language>Telugu</language>
+		<name>is.gd</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>2</pk_page_id>
+		<language>Danish</language>
+		<name>dion.ne.jp</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>3</pk_page_id>
+		<language>Lao</language>
+		<name>cyberchimps.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>4</pk_page_id>
+		<language>Swahili</language>
+		<name>redcross.org</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>5</pk_page_id>
+		<language>West Frisian</language>
+		<name>reverbnation.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>6</pk_page_id>
+		<language>Luxembourgish</language>
+		<name>tamu.edu</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>7</pk_page_id>
+		<language>Lithuanian</language>
+		<name>merriam-webster.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>8</pk_page_id>
+		<language>Arabic</language>
+		<name>purevolume.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>9</pk_page_id>
+		<language>Moldovan</language>
+		<name>yandex.ru</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>10</pk_page_id>
+		<language>Thai</language>
+		<name>etsy.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>11</pk_page_id>
+		<language>Malay</language>
+		<name>narod.ru</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>12</pk_page_id>
+		<language>French</language>
+		<name>addtoany.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>13</pk_page_id>
+		<language>English</language>
+		<name>theguardian.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>14</pk_page_id>
+		<language>Maltese</language>
+		<name>mozilla.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>15</pk_page_id>
+		<language>Maltese</language>
+		<name>wiley.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>16</pk_page_id>
+		<language>French</language>
+		<name>unc.edu</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>17</pk_page_id>
+		<language>Khmer</language>
+		<name>blog.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>18</pk_page_id>
+		<language>Greek</language>
+		<name>cam.ac.uk</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>19</pk_page_id>
+		<language>Azeri</language>
+		<name>youtu.be</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>20</pk_page_id>
+		<language>Swahili</language>
+		<name>independent.co.uk</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>21</pk_page_id>
+		<language>Polish</language>
+		<name>irs.gov</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>22</pk_page_id>
+		<language>Mongolian</language>
+		<name>discuz.net</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>23</pk_page_id>
+		<language>Haitian Creole</language>
+		<name>deliciousdays.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>24</pk_page_id>
+		<language>Kyrgyz</language>
+		<name>booking.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>25</pk_page_id>
+		<language>Croatian</language>
+		<name>hugedomains.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>26</pk_page_id>
+		<language>Kannada</language>
+		<name>ezinearticles.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>27</pk_page_id>
+		<language>Greek</language>
+		<name>constantcontact.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>28</pk_page_id>
+		<language>Somali</language>
+		<name>barnesandnoble.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>29</pk_page_id>
+		<language>Hungarian</language>
+		<name>usgs.gov</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>30</pk_page_id>
+		<language>Somali</language>
+		<name>gov.uk</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>31</pk_page_id>
+		<language>Northern Sotho</language>
+		<name>cisco.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>32</pk_page_id>
+		<language>English</language>
+		<name>kickstarter.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>33</pk_page_id>
+		<language>Malagasy</language>
+		<name>usatoday.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>34</pk_page_id>
+		<language>Malay</language>
+		<name>state.tx.us</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>35</pk_page_id>
+		<language>Georgian</language>
+		<name>elpais.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>36</pk_page_id>
+		<language>Somali</language>
+		<name>salon.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>37</pk_page_id>
+		<language>Malayalam</language>
+		<name>ebay.co.uk</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>38</pk_page_id>
+		<language>Burmese</language>
+		<name>xinhuanet.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>39</pk_page_id>
+		<language>Romanian</language>
+		<name>gmpg.org</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>40</pk_page_id>
+		<language>Moldovan</language>
+		<name>weebly.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>41</pk_page_id>
+		<language>Amharic</language>
+		<name>msu.edu</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>42</pk_page_id>
+		<language>Bulgarian</language>
+		<name>paypal.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>43</pk_page_id>
+		<language>Norwegian</language>
+		<name>dion.ne.jp</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>44</pk_page_id>
+		<language>New Zealand Sign Language</language>
+		<name>netlog.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>45</pk_page_id>
+		<language>Northern Sotho</language>
+		<name>ucla.edu</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>46</pk_page_id>
+		<language>Maltese</language>
+		<name>google.co.uk</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>47</pk_page_id>
+		<language>Quechua</language>
+		<name>istockphoto.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>48</pk_page_id>
+		<language>Arabic</language>
+		<name>paginegialle.it</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>49</pk_page_id>
+		<language>Estonian</language>
+		<name>hp.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>50</pk_page_id>
+		<language>Papiamento</language>
+		<name>com.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>51</pk_page_id>
+		<language>Catalan</language>
+		<name>cbc.ca</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>52</pk_page_id>
+		<language>Moldovan</language>
+		<name>google.com.hk</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>53</pk_page_id>
+		<language>Tok Pisin</language>
+		<name>unblog.fr</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>54</pk_page_id>
+		<language>Yiddish</language>
+		<name>fema.gov</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>55</pk_page_id>
+		<language>Portuguese</language>
+		<name>oaic.gov.au</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>56</pk_page_id>
+		<language>Sotho</language>
+		<name>tiny.cc</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>57</pk_page_id>
+		<language>Japanese</language>
+		<name>latimes.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>58</pk_page_id>
+		<language>Norwegian</language>
+		<name>technorati.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>59</pk_page_id>
+		<language>Estonian</language>
+		<name>cbc.ca</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>60</pk_page_id>
+		<language>MÄori</language>
+		<name>whitehouse.gov</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>61</pk_page_id>
+		<language>Khmer</language>
+		<name>fotki.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>62</pk_page_id>
+		<language>Moldovan</language>
+		<name>privacy.gov.au</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>63</pk_page_id>
+		<language>Czech</language>
+		<name>yandex.ru</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>64</pk_page_id>
+		<language>Bengali</language>
+		<name>mail.ru</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>65</pk_page_id>
+		<language>West Frisian</language>
+		<name>github.io</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>66</pk_page_id>
+		<language>Oriya</language>
+		<name>nasa.gov</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>67</pk_page_id>
+		<language>Mongolian</language>
+		<name>cloudflare.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>68</pk_page_id>
+		<language>Bulgarian</language>
+		<name>apple.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>69</pk_page_id>
+		<language>Mongolian</language>
+		<name>upenn.edu</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>70</pk_page_id>
+		<language>Telugu</language>
+		<name>senate.gov</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>71</pk_page_id>
+		<language>German</language>
+		<name>posterous.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>72</pk_page_id>
+		<language>Azeri</language>
+		<name>alibaba.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>73</pk_page_id>
+		<language>Tamil</language>
+		<name>mlb.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>74</pk_page_id>
+		<language>Indonesian</language>
+		<name>storify.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>75</pk_page_id>
+		<language>Hiri Motu</language>
+		<name>feedburner.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>76</pk_page_id>
+		<language>Telugu</language>
+		<name>typepad.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>77</pk_page_id>
+		<language>GuaranÃ­</language>
+		<name>independent.co.uk</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>78</pk_page_id>
+		<language>West Frisian</language>
+		<name>cyberchimps.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>79</pk_page_id>
+		<language>MÄori</language>
+		<name>hhs.gov</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>80</pk_page_id>
+		<language>Pashto</language>
+		<name>tiny.cc</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>81</pk_page_id>
+		<language>Spanish</language>
+		<name>eepurl.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>82</pk_page_id>
+		<language>Chinese</language>
+		<name>creativecommons.org</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>83</pk_page_id>
+		<language>Ndebele</language>
+		<name>cargocollective.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>84</pk_page_id>
+		<language>Kashmiri</language>
+		<name>goodreads.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>85</pk_page_id>
+		<language>Tetum</language>
+		<name>umn.edu</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>86</pk_page_id>
+		<language>Oriya</language>
+		<name>amazonaws.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>87</pk_page_id>
+		<language>Georgian</language>
+		<name>yellowpages.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>88</pk_page_id>
+		<language>Arabic</language>
+		<name>blogtalkradio.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>89</pk_page_id>
+		<language>Chinese</language>
+		<name>wisc.edu</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>90</pk_page_id>
+		<language>Lithuanian</language>
+		<name>apache.org</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>91</pk_page_id>
+		<language>Bulgarian</language>
+		<name>sciencedaily.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>92</pk_page_id>
+		<language>Assamese</language>
+		<name>imgur.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>93</pk_page_id>
+		<language>German</language>
+		<name>purevolume.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>94</pk_page_id>
+		<language>Kazakh</language>
+		<name>wikia.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>95</pk_page_id>
+		<language>English</language>
+		<name>google.com.hk</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>96</pk_page_id>
+		<language>Somali</language>
+		<name>engadget.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>97</pk_page_id>
+		<language>Bulgarian</language>
+		<name>loc.gov</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>98</pk_page_id>
+		<language>Lithuanian</language>
+		<name>businessweek.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>99</pk_page_id>
+		<language>Tsonga</language>
+		<name>parallels.com</name>
+	</ROW>
+
+	<ROW>
+		<pk_page_id>100</pk_page_id>
+		<language>Italian</language>
+		<name>twitpic.com</name>
+	</ROW>
+</DATA>

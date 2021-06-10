@@ -1,0 +1,9 @@
+insert into website.navigation (navigation_type, pk_navigation_id, layout, number_of_views, fk_menu_id) values ('item', 31, 'tabelle', 68580, 58);
+insert into website.navigation (navigation_type, pk_navigation_id, layout, number_of_views, fk_menu_id) values ('item', 32, 'tabelle', 35236, 58);
+insert into website.navigation (navigation_type, pk_navigation_id, layout, number_of_views, fk_menu_id) values ('item', 33, 'tabelle', 6874, 60);
+insert into website.navigation (navigation_type, pk_navigation_id, layout, number_of_views, fk_menu_id) values ('item', 34, 'titel', 62447, 45);
+insert into website.navigation (navigation_type, pk_navigation_id, layout, number_of_views, fk_menu_id) values ('item', 35, 'body', 99919, 41);
+insert into website.navigation (navigation_type, pk_navigation_id, layout, number_of_views, fk_menu_id) values ('item', 36, 'button', 81024, 46);
+insert into website.navigation (navigation_type, pk_navigation_id, layout, number_of_views, fk_menu_id) values ('item', 37, 'button', 56603, 56);
+insert into website.navigation (navigation_type, pk_navigation_id, layout, number_of_views, fk_menu_id) values ('item', 38, 'link', 29678, 50);
+insert into website.navigation (navigation_type, pk_navigation_id, layout, number_of_views, fk_menu_id) values ('item', 39, 'titel', 37221, 54);
