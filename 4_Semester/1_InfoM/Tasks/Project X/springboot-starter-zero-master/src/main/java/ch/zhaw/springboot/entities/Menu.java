@@ -13,7 +13,7 @@ import javax.persistence.Table;
 
 @Entity(name = "Menu")
 @Table(name = "menu")
-@DiscriminatorValue("1")
+@DiscriminatorValue("menu")
 public class Menu extends Navigation{
 	
 	@Column(name = "label", length = 25)

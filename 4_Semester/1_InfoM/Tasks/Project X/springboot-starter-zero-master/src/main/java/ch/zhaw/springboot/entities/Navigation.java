@@ -26,7 +26,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity(name = "Navigation")
 @Table(name = "navigation")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name="navigation_type", discriminatorType = DiscriminatorType.INTEGER)
+@DiscriminatorColumn(name="navigation_type", discriminatorType = DiscriminatorType.STRING)
 public class Navigation {
 	
 	@Id

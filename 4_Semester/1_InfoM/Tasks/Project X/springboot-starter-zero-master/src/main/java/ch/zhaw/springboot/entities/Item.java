@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity(name = "Item")
 @Table(name = "item")
-@DiscriminatorValue("2")
+@DiscriminatorValue("item")
 public class Item extends Navigation{
 	
 	@Column(name = "number_of_views")
