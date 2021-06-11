@@ -46,6 +46,10 @@
             .post("http://localhost:8080/website/provisions", provision)
             .then((response) => {
                 alert("Provision added");
+                provision.dateFrom = null;
+                provision.dateTo = null;
+                provision.page_id = null;
+                provision.navigation_id = null;
                 console.log(response.data);
             })
             .catch( (error) => {

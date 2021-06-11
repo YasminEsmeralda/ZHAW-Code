@@ -1,6 +1,5 @@
 // Project X: Website
 import Home from "./pages/Home.svelte";
-import DemoPage from "./pages/DemoPage.svelte"
 
 //Page
 import Page from "./pages/pages/page.svelte"
@@ -18,24 +17,11 @@ import CreateMenu from "./pages/navigations/menus/createMenu.svelte"
 import Item from "./pages/navigations/items/item.svelte"
 import CreateItem from "./pages/navigations/items/createItem.svelte"
 
-
-import Infections from "./pages/infections/Infections.svelte"
-import CreateInfection from "./pages/infections/createInfection.svelte"
-
-import Persons from "./pages/persons/Persons.svelte"
-import PersonDetails from "./pages/persons/PersonDetails.svelte"
-import CreatePerson from "./pages/persons/CreatePerson.svelte"
-
-import Pathogens from "./pages/pathogens/Pathogens.svelte"
-import PathogenDetails from "./pages/pathogens/PathogenDetails.svelte"
-import CreatePathogen from "./pages/pathogens/createPathogen.svelte"
-
 // Export the route definition object
 export default {
     // Exact path
     '/': Home,
     '/home': Home,
-    '/demo': DemoPage,
 
     // Page
     '/page': Page,
@@ -47,23 +33,9 @@ export default {
 
     //Navigation
     '/navigation': Navigation,
-    '/navigation/navigationList': NavigationList,
+    '/navigation/list': NavigationList,
     '/navigation/menu': Menu,
     '/create-menu': CreateMenu,
     '/navigation/item': Item,
     '/create-item': CreateItem,
-
-    // infections
-    '/infections': Infections,
-    '/create-infection': CreateInfection,
-    
-    // persons
-    '/persons': Persons,
-    '/persons/:id': PersonDetails,
-    '/create-person': CreatePerson,
-
-    // pathogens
-    '/pathogens': Pathogens,
-    '/pathogens/:id': PathogenDetails,
-    '/create-pathogen': CreatePathogen,
 }

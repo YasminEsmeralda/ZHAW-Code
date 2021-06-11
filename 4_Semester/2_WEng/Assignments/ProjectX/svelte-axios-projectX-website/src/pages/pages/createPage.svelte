@@ -24,6 +24,8 @@
             .post("http://localhost:8080/website/pages/", page)
             .then((response) => {
                 alert("Page added");
+                page.language = "";
+                page.name = null;
                 console.log(response.data);
             })
             .catch( (error) => {

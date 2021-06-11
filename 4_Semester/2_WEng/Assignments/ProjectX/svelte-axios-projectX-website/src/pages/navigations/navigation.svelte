@@ -66,7 +66,7 @@
          <br />
          Navigation has the combited attributs of menu and item.
       </p>
-      <a href="#/navigation/navigationList" style="text-decoration: none;">
+      <a href="#/navigation/list" style="text-decoration: none;">
         <div class="d-grid gap-2">
           <button class="btn btn-warning mb-3" type="button">
             click here to go the <strong>navigation</strong> list

@@ -43,6 +43,8 @@
     </div>
   </a>
 
+  <BackButton />
+
 {#each menus as menu}
 <div class="accordion according-flush mb-1" id="according{menu.id}">
   <div class="accordion-item">
@@ -85,5 +87,4 @@
   </div>
 </div>
 {/each}
-<BackButton />
 </div>

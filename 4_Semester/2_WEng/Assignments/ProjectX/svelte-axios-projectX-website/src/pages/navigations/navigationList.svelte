@@ -1,20 +1,16 @@
 <script>
     import axios from "axios";
     import { onMount } from "svelte";
-    export let params = {};
+import { empty } from "svelte/internal";
+    import BackButton from "../reusable/backButton.svelte";
+import Navigation from "./navigation.svelte";
+   
 
     let navigations = [];
-    let items = {};    
-    let itemId;
 
     onMount(() => {
         getNavigations();
     });  
-
-    $: {
-        itemId = params.id;
-        getItemById();
-    }
 
     function getNavigations() {
       axios
@@ -24,23 +20,68 @@
       });
     }
 
-    function getItemById() {
-      axios
-        .get("http://localhost:8080/website/items/" + itemId)
-        .then((response) => {
-                items = response.data;
-      });
-    }
-
 </script>
 
 <div>
-    <h1>List of all available Pages</h1>
+    <h1>List of all available Navigations</h1>
+
+      <BackButton />
 
     {#each navigations as navigation}
-        <!-- <p>{getItemById(navigation.id)}</p> -->
-        <p>{navigation.label}</p>
-        <br />
-        <p>{navigation.ctrViews}</p>
+        <div class="accordion according-flush mb-1" id="accordingFlush{navigation.id}">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading{navigation.id}">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{navigation.id}" aria-expanded="true" aria-controls="collapse{navigation.id}">
+                <strong>{navigation.label}</strong>
+            </button>
+            </h2>
+            <div id="collapse{navigation.id}" class="accordion-collapse collapse" aria-labelledby="flush-heading{navigation.id}" data-bs-parent="#accordingFlush{navigation.id}">
+            <div class="accordion-body">
+                <p><strong>Layout: </strong>{navigation.layout}</p>
+                <th><p><strong>This Navigation provides the following Navigations</strong></p></th>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Navigation</th>
+                            <th>Label</th>
+                            <th>Views</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {#each navigation.navigations as children}
+                        <tr>
+                            <td>
+                                {children.id}
+                            </td>
+                            <td>
+                                {#if children.label != null}
+                                Menu
+                                {:else}
+                                Item
+                                {/if}
+                            </td>
+                            <td>
+                                {#if children.label != null}
+                                {children.label}
+                                {:else}
+                                -
+                                {/if}
+                            </td>
+                            <td>
+                                {#if children.ctrViews != null}
+                                {children.ctrViews}
+                                {:else}
+                                -
+                                {/if}
+                            </td>
+                        </tr>
+                        {/each}
+                    </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+      </div>
     {/each}
 </div>

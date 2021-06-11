@@ -28,9 +28,12 @@
 
     function addMenu() {
         axios
-            .post("http://localhost:8080/website/menus/", menu)
+            .post("http://localhost:8080/website/menus/" + menu.menu_id, menu)
             .then((response) => {
                 alert("Menu added");
+                menu.layout = "";
+                menu.label = "";
+                menu.menu_id = -1;
                 console.log(response.data);
             })
             .catch( (error) => {

@@ -28,9 +28,12 @@
 
     function addItem() {
         axios
-            .post("http://localhost:8080/website/items/", item)
+            .post("http://localhost:8080/website/items/" + item.menu_id, item)
             .then((response) => {
                 alert("Item added");
+                item.layout = "";
+                item.ctrViews = null;
+                item.menu_id = null;
                 console.log(response.data);
             })
             .catch( (error) => {

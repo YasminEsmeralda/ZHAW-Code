@@ -1,5 +1,7 @@
-<a href="#/navigation">
-    <button type="button" class="btn btn-primary">
-        Go back to navigationtype selection
+<a href="#/navigation" style="text-decoration: none;">
+    <div class="d-grid gap-1">
+      <button class="btn btn-outline-success mb-3" type="button">
+        Go back to Navigation selection Type
     </button>
-</a>
+    </div>
+  </a>

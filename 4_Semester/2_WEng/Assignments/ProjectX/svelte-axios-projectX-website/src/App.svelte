@@ -21,18 +21,6 @@
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="#/demo">Demo</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#/persons">Persons</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#/pathogens"> Pathogens </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#/infections"> Infections </a>
-				</li>
-				<li class="nav-item">
 					<a class="nav-link" href="#/page"> Pages </a>
 				</li>				
 				<li class="nav-item">
