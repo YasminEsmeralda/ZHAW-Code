@@ -24,6 +24,8 @@
             .post("http://localhost:8080/website/pages/", page)
             .then((response) => {
                 alert("Page added");
+                page.language = "";
+                page.name = null;
                 console.log(response.data);
             })
             .catch( (error) => {
@@ -54,13 +56,19 @@
                 {/each}
             </select>
         </div>
-        <a href="#/page">
-            <button type="button" class="btn btn-primary">
-                Back to Pagelist
-            </button>
-        </a>
-        <button on:click={addPage} type="button" class="btn btn-primary">
-            Add Page
-        </button>
+
+        <div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button on:click={addPage} type="button" class="btn btn-warning">
+                    Add Page
+                </button>
+                <a href="#/page">
+                    <button type="button" class="btn btn-outline-warning">
+                        Back to Pageoverview
+                    </button>
+                </a> 
+        </div>
     </form>
 </div>
+
+

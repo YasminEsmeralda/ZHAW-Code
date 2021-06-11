@@ -6,7 +6,7 @@
 <!-- This part is always displayed -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#/">Infections DB</a>
+		<a class="navbar-brand" href="#/">Project X: Website</a>
 		<button
 			class="navbar-toggler"
 			type="button"
@@ -21,22 +21,13 @@
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="#/demo">Demo</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#/persons">Persons</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#/pathogens"> Pathogens </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#/infections"> Infections </a>
-				</li>
-				<li class="nav-item">
 					<a class="nav-link" href="#/page"> Pages </a>
 				</li>				
 				<li class="nav-item">
 					<a class="nav-link" href="#/provision"> Provision </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#/navigation"> Navigation </a>
 				</li>
 			</ul>
 		</div>
