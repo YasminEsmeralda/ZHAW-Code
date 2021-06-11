@@ -46,7 +46,7 @@
   <div class="accordion according-flush mb-1" id="accordingFlush{page.id}">
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-heading{page.id}">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{page.id}" aria-expanded="true" aria-controls="collapse{page.id}">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{page.id}" aria-expanded="true" aria-controls="collapse{page.id}">
           <strong>{page.name}</strong>
         </button>
       </h2>

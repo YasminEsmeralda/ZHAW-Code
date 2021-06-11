@@ -33,15 +33,17 @@
 </script>
 
 <div>
-  <h1>List of all available Menu</h1>
+  <h1>List of all available Items</h1>
 
   <a href="#/create-item" style="text-decoration: none;">
     <div class="d-grid gap-1">
       <button class="btn btn-outline-warning mb-3" type="button">
-        + Add Menu
+        + Add Item
     </button>
     </div>
   </a>
+
+  <BackButton />
 
   <table class="table">
     <thead>
@@ -75,5 +77,4 @@
       {/each}
     </tbody>
   </table>
-<BackButton />
 </div>

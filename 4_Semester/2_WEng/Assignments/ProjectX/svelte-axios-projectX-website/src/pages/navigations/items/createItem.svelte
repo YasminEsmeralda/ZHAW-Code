@@ -20,17 +20,20 @@
             .then((response) => {
                 menus = [];
                 for (let menu of response.data) {
-                    menus.push(menu.id);
+                    menus.push(menu.id + " - " + menu.label);
                 }
                 item.menu_id = menus[0];
             });
     }
 
     function addItem() {
+
+        let menuComponents = menu.menu_id.split("-");
+
         axios
-            .post("http://localhost:8080/website/items/" + item.menu_id, item)
+            .post("http://localhost:8080/website/items/" + menuComponents[0], item)
             .then((response) => {
-                alert("Item added");
+                alert("Item" + menuComponents[1] + "added");
                 item.layout = "";
                 item.ctrViews = null;
                 item.menu_id = null;

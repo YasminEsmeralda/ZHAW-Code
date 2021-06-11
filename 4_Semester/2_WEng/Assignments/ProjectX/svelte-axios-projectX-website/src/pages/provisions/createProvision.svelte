@@ -23,7 +23,7 @@
             .then((response) => {
                 pages = [];
                 for (let page of response.data) {
-                    pages.push(page.id);
+                    pages.push(page.id + " - " + page.name);
                 }
                 provision.page_id = pages[0];
             });
@@ -35,13 +35,20 @@
             .then((response) => {
                 navigations = [];
                 for (let navigation of response.data) {
-                    navigations.push(navigation.id);
+                    navigations.push(navigation.id + " - " + navigation.layout);
                 }
                 provision.navigation_id = navigations[0];
             });
     }
 
     function addProvision() {
+
+        let pageComponents = provision.page_id.split("-");
+        let navigationComponents = provision.navigation_id.split("-");
+       
+        provision.page_id= pageComponents[0];
+        provision.navigation_id = navigationComponents[0];
+
         axios
             .post("http://localhost:8080/website/provisions", provision)
             .then((response) => {
@@ -69,7 +76,7 @@
             <label for="" class="form-label">Date From</label>
             <input
                 class="form-control"
-                type="text"
+                type="date"
                 bind:value={provision.dateFrom}
             />
         </div>
@@ -77,7 +84,7 @@
             <label for="" class="form-label">Date To</label>
             <input
                 class="form-control"
-                type="text"
+                type="date"
                 bind:value={provision.dateTo}
             />
         </div>

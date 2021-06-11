@@ -25,13 +25,13 @@ import Navigation from "./navigation.svelte";
 <div>
     <h1>List of all available Navigations</h1>
 
-      <BackButton />
+    <BackButton />
 
     {#each navigations as navigation}
         <div class="accordion according-flush mb-1" id="accordingFlush{navigation.id}">
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-heading{navigation.id}">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{navigation.id}" aria-expanded="true" aria-controls="collapse{navigation.id}">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{navigation.id}" aria-expanded="true" aria-controls="collapse{navigation.id}">
                 <strong>{navigation.label}</strong>
             </button>
             </h2>
@@ -54,27 +54,15 @@ import Navigation from "./navigation.svelte";
                             <td>
                                 {children.id}
                             </td>
-                            <td>
-                                {#if children.label != null}
-                                Menu
-                                {:else}
-                                Item
-                                {/if}
-                            </td>
-                            <td>
-                                {#if children.label != null}
-                                {children.label}
-                                {:else}
-                                -
-                                {/if}
-                            </td>
-                            <td>
-                                {#if children.ctrViews != null}
-                                {children.ctrViews}
-                                {:else}
-                                -
-                                {/if}
-                            </td>
+                            {#if children.label != null}
+                                <td>Menu</td>
+                                <td>{children.label}</td>
+                                <td>-</td>
+                            {:else}
+                                <td>Item</td>
+                                <td>-</td>
+                                <td>{children.ctrViews}</td>
+                            {/if}
                         </tr>
                         {/each}
                     </tbody>

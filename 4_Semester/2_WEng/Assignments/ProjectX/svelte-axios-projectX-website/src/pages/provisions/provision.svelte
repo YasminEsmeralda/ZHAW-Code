@@ -28,7 +28,32 @@
                 alert(error)
             });
     }
-
+	
+	// Holds table sort state.  Initialized to reflect table sorted by id column ascending.
+	let sortBy = {col: "id", ascending: true};
+	
+	$: sort = (column) => {
+		
+		if (sortBy.col == column) {
+			sortBy.ascending = !sortBy.ascending
+		} else {
+			sortBy.col = column
+			sortBy.ascending = true
+		}
+		
+		// Modifier to sorting function for ascending or descending
+		let sortModifier = (sortBy.ascending) ? 1 : -1;
+		
+		let sort = (a, b) => 
+			(a[column] < b[column]) 
+			? -1 * sortModifier 
+			: (a[column] > b[column]) 
+			? 1 * sortModifier 
+			: 0;
+		
+		provisions = provisions.sort(sort);
+	}
+  
 </script>
 
 <div>
@@ -46,7 +71,7 @@
       <table class="table">
         <thead>
             <tr>
-                <th>ID</th>
+                <th on:click={sort("id")}>ID</th>
                 <th>Date</th>
                 <th></th>
             </tr>

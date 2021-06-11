@@ -33,7 +33,7 @@
 </script>
 
 <div>
-  <h1>List of all available Menu</h1>
+  <h1>List of all available Menus</h1>
 
   <a href="#/create-menu" style="text-decoration: none;">
     <div class="d-grid gap-1">
