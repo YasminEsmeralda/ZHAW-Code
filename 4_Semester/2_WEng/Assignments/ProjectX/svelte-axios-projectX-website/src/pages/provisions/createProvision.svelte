@@ -1,6 +1,5 @@
 <script>
     import axios from "axios";
-import { push } from "svelte-spa-router";
     import { onMount } from "svelte";
 
     let provision = {
@@ -44,7 +43,7 @@ import { push } from "svelte-spa-router";
 
     function addProvision() {
         axios
-            .post("http://localhost:8080/website/provisions/", provision)
+            .post("http://localhost:8080/website/provisions", provision)
             .then((response) => {
                 alert("Provision added");
                 console.log(response.data);
@@ -59,7 +58,7 @@ import { push } from "svelte-spa-router";
 <div class="mb-5">
     <h1 class="mt-3">Add an Provision</h1>
 
-    <p>enter date in format: "yyyy-mm-dd"</p>
+    <p>enter date in format: <strong>"yyyy-mm-dd"</strong></p>
 
     <form>
         <div class="mb-3">
@@ -81,8 +80,8 @@ import { push } from "svelte-spa-router";
         <div class="mb-3">
             <label for="" class="form-label">Page</label>
             <select bind:value={provision.page_id} class="form-select">
-                {#each pages as name}
-                    <option>{name}</option>
+                {#each pages as id}
+                    <option>{id}</option>
                 {/each}
             </select>
         </div>
@@ -94,13 +93,16 @@ import { push } from "svelte-spa-router";
                 {/each}
             </select>
         </div>
-        <a href="#/provision">
-            <button type="button" class="btn btn-primary">
-                Back to Provisionlist
-            </button>
-        </a>
-        <button on:click={addProvision} type="button" class="btn btn-primary">
-            Add Provision
-        </button>
+        <div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button on:click={addProvision} type="button" class="btn btn-warning">
+                    Add Provision
+                </button>
+                <a href="#/provision">
+                    <button type="button" class="btn btn-outline-warning">
+                        Back to Provisionverview
+                    </button>
+                </a> 
+        </div>
     </form>
 </div>
