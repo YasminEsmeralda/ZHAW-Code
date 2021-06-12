@@ -36,7 +36,7 @@
 </script>
 
 <div class="mb-5">
-    <h1 class="mt-3">Add an Page</h1>
+    <h1 class="mt-3">Add a Page</h1>
 
     <form>
         <div class="mb-3">

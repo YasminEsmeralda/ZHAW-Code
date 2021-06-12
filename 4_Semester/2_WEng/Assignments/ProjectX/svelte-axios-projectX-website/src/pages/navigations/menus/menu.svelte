@@ -49,7 +49,7 @@
 <div class="accordion according-flush mb-1" id="according{menu.id}">
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-heading{menu.id}">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{menu.id}" aria-expanded="true" aria-controls="collapse{menu.id}">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{menu.id}" aria-expanded="true" aria-controls="collapse{menu.id}">
         <strong>Label: {menu.label}</strong>
       </button>
     </h2>
@@ -61,19 +61,27 @@
           <thead>
               <tr>
                   <th>ID</th>
+                  <th>Navigation</th>
                   <th>Layout</th>
+                  <th>Views</th>
               </tr>
           </thead>
           <tbody>
               {#each menu.navigations as navigation}
-                  <tr>
-                      <td>
-                          {navigation.id}
-                      </td>
-                      <td>
-                          {navigation.layout}
-                      </td>
-                  </tr>
+              <tr>
+                <td>
+                    {navigation.id}
+                </td>
+                {#if navigation.label != null}
+                    <td>Menu</td>
+                    <td>{navigation.label}</td>
+                    <td>-</td>
+                {:else}
+                    <td>Item</td>
+                    <td>-</td>
+                    <td>{navigation.ctrViews}</td>
+                {/if}
+            </tr>
               {/each}
           </tbody>
         </table>

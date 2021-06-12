@@ -69,8 +69,6 @@
 <div class="mb-5">
     <h1 class="mt-3">Add an Provision</h1>
 
-    <p>enter date in format: <strong>"yyyy-mm-dd"</strong></p>
-
     <form>
         <div class="mb-3">
             <label for="" class="form-label">Date From</label>

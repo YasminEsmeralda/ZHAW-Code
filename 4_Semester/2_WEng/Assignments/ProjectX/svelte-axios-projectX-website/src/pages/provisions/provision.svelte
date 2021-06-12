@@ -66,8 +66,7 @@
       </button>
       </div>
     </a>
-
-      <p><strong>This Page provides the following Provisions</strong></p>
+    
       <table class="table">
         <thead>
             <tr>
