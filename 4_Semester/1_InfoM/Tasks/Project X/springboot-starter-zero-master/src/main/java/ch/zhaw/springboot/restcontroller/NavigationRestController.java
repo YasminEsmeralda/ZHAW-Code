@@ -50,7 +50,7 @@ public class NavigationRestController {
 		}
 
 		return new ResponseEntity<Navigation>(result.get(), HttpStatus.OK);
-	}
+	}	
 
 	@RequestMapping(value = "website/navigations/type/{type}", method = RequestMethod.GET)
 	public ResponseEntity<List<Navigation>> getNavigationsByType(@PathVariable("type") String type) {

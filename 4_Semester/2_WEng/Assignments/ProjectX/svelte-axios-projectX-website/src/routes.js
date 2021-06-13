@@ -11,7 +11,6 @@ import CreateProvision from "./pages/provisions/createProvision.svelte"
 
 //Navigation
 import Navigation from "./pages/navigations/navigation.svelte"
-import NavigationList from "./pages/navigations/navigationList.svelte"
 import Menu from "./pages/navigations/menus/menu.svelte"
 import CreateMenu from "./pages/navigations/menus/createMenu.svelte"
 import Item from "./pages/navigations/items/item.svelte"
@@ -33,7 +32,6 @@ export default {
 
     //Navigation
     '/navigation': Navigation,
-    '/navigation/list': NavigationList,
     '/navigation/menu': Menu,
     '/create-menu': CreateMenu,
     '/navigation/item': Item,
