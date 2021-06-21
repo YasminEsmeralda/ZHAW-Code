@@ -1,0 +1,24 @@
+#btn-back-to-top :hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#btn-back-to-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: red;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

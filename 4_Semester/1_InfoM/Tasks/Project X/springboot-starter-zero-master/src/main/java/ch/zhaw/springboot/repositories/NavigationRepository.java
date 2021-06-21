@@ -6,6 +6,4 @@ import ch.zhaw.springboot.entities.Navigation;
 
 public interface NavigationRepository extends JpaRepository<Navigation, Long> {
 	
-//	@Query("SELECT n FROM Navigation n, Item i WHERE TYPE(i)")
-
 }
