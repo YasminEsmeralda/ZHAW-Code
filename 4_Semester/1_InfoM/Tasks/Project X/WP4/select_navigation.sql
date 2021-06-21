@@ -1,5 +1,5 @@
 select *
 from website.navigation
 -- where navigation_type = "item"
-where navigation_type = "menu"
+-- where navigation_type = "item"
 ;

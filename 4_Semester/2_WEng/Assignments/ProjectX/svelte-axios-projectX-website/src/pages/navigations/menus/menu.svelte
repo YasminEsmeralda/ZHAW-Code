@@ -63,7 +63,7 @@ function deleteMenu(id, pos) {
                             <tr>
                                 <th>ID</th>
                                 <th>Navigation</th>
-                                <th>Layout</th>
+                                <th>Label</th>
                                 <th>Views</th>
                             </tr>
                         </thead>

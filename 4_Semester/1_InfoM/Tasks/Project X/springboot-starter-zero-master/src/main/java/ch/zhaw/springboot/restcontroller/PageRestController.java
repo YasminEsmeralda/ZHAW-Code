@@ -94,6 +94,28 @@ public class PageRestController {
 		}
 	}
 	
+	@RequestMapping(value = "website/pages/byPeriod/{dateFrom}/{dateTo}", method = RequestMethod.GET)
+	public ResponseEntity<List<Page>> getPageByPeriod(@PathVariable("dateFrom") Date dateFrom, @PathVariable("dateTo") Date dateTo) {
+		List<Page> result = this.repository.findPageByPeriod(dateFrom, dateTo);
+
+		if (!result.isEmpty()) {
+			return new ResponseEntity<List<Page>>(result, HttpStatus.OK);
+		} else {
+			return new ResponseEntity<List<Page>>(HttpStatus.NOT_FOUND);
+		}
+	}
+	
+	@RequestMapping(value = "website/pages/byPeriod/{date}", method = RequestMethod.GET)
+	public ResponseEntity<List<Page>> getPageByPeriod(@PathVariable("date") Date date) {
+		List<Page> result = this.repository.findPageByDateInPeriod(date);
+
+		if (!result.isEmpty()) {
+			return new ResponseEntity<List<Page>>(result, HttpStatus.OK);
+		} else {
+			return new ResponseEntity<List<Page>>(HttpStatus.NOT_FOUND);
+		}
+	}
+	
 	@RequestMapping(value = "website/pages", method = RequestMethod.POST)
 	public ResponseEntity<Page> createPage(@RequestBody PageRequest pageRequest) {
 

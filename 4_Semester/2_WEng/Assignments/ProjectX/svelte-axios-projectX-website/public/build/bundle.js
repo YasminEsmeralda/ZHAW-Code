@@ -5257,9 +5257,9 @@ var app = (function () {
     			t3 = space();
     			td2 = element("td");
     			t4 = text(t4_value);
-    			add_location(td0, file$4, 80, 32, 2898);
-    			add_location(td1, file$4, 81, 32, 2945);
-    			add_location(td2, file$4, 82, 32, 2989);
+    			add_location(td0, file$4, 80, 32, 2897);
+    			add_location(td1, file$4, 81, 32, 2944);
+    			add_location(td2, file$4, 82, 32, 2988);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, td0, anchor);
@@ -5312,9 +5312,9 @@ var app = (function () {
     			t3 = space();
     			td2 = element("td");
     			td2.textContent = "-";
-    			add_location(td0, file$4, 76, 32, 2705);
-    			add_location(td1, file$4, 77, 32, 2752);
-    			add_location(td2, file$4, 78, 32, 2813);
+    			add_location(td0, file$4, 76, 32, 2704);
+    			add_location(td1, file$4, 77, 32, 2751);
+    			add_location(td2, file$4, 78, 32, 2812);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, td0, anchor);
@@ -5372,8 +5372,8 @@ var app = (function () {
     			t1 = space();
     			if_block.c();
     			t2 = space();
-    			add_location(td, file$4, 72, 32, 2511);
-    			add_location(tr, file$4, 71, 28, 2473);
+    			add_location(td, file$4, 72, 32, 2510);
+    			add_location(tr, file$4, 71, 28, 2472);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, tr, anchor);
@@ -5496,7 +5496,7 @@ var app = (function () {
     			th1.textContent = "Navigation";
     			t11 = space();
     			th2 = element("th");
-    			th2.textContent = "Layout";
+    			th2.textContent = "Label";
     			t13 = space();
     			th3 = element("th");
     			th3.textContent = "Views";
@@ -5530,17 +5530,17 @@ var app = (function () {
     			add_location(th0, file$4, 63, 32, 2112);
     			add_location(th1, file$4, 64, 32, 2157);
     			add_location(th2, file$4, 65, 32, 2210);
-    			add_location(th3, file$4, 66, 32, 2259);
+    			add_location(th3, file$4, 66, 32, 2258);
     			add_location(tr, file$4, 62, 28, 2074);
     			add_location(thead, file$4, 61, 24, 2037);
-    			add_location(tbody, file$4, 69, 24, 2368);
+    			add_location(tbody, file$4, 69, 24, 2367);
     			attr_dev(table, "class", "table");
     			add_location(table, file$4, 60, 20, 1990);
     			attr_dev(button1, "type", "button");
     			attr_dev(button1, "class", "btn btn-outline-danger");
-    			add_location(button1, file$4, 89, 24, 3301);
+    			add_location(button1, file$4, 89, 24, 3300);
     			attr_dev(div0, "class", "d-grid gap-2 d-md-flex justify-content-md-end");
-    			add_location(div0, file$4, 88, 20, 3216);
+    			add_location(div0, file$4, 88, 20, 3215);
     			attr_dev(div1, "class", "accordion-body");
     			add_location(div1, file$4, 57, 16, 1779);
     			attr_dev(div2, "id", div2_id_value = "collapse" + /*menu*/ ctx[3].id);

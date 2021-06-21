@@ -22,4 +22,10 @@ public interface PageRepository extends JpaRepository<Page, Long> {
 	
 	@Query("SELECT p.name FROM Page p, Provision ps WHERE p.id = ps.page AND ps.dateTo = ?1")
 	public List<Page> findPageByProvisionDateTo (Date dateTo);
+	
+	@Query("SELECT p.name FROM Page p, Provision ps WHERE p.id = ps.page AND ps.dateFrom = ?1 AND ps.dateTo = ?2")
+	public List<Page> findPageByPeriod(Date dateFrom, Date dateTo);
+	
+	@Query("SELECT p.name FROM Page p, Provision ps WHERE p.id = ps.page AND ?1 BETWEEN ps.dateFrom AND ps.dateTo GROUP BY p.name")
+	public List<Page> findPageByDateInPeriod(Date date);
 }
